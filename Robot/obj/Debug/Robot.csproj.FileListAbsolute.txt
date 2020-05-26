@@ -1,0 +1,12 @@
+E:\KY\Robot\bin\Debug\Robot.exe.config
+E:\KY\Robot\bin\Debug\Robot.exe
+E:\KY\Robot\bin\Debug\Robot.pdb
+E:\KY\Robot\bin\Debug\ClientTools.dll
+E:\KY\bin\Debug\Robot.exe.config
+E:\KY\bin\Debug\Robot.exe
+E:\KY\bin\Debug\Robot.pdb
+E:\KY\Robot\obj\Debug\Robot.csproj.CoreCompileInputs.cache
+E:\KY\Robot\obj\Debug\Robot.csproj.CopyComplete
+E:\KY\Robot\obj\Debug\Robot.exe
+E:\KY\Robot\obj\Debug\Robot.pdb
+E:\KY\Robot\obj\Debug\Robot.csprojAssemblyReference.cache
