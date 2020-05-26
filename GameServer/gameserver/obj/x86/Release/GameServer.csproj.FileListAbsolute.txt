@@ -1,0 +1,8 @@
+E:\KY\GameServer\gameserver\obj\x86\Release\GameServer.csproj.CoreCompileInputs.cache
+E:\KY\bin\Release\GameServer.exe.config
+E:\KY\bin\Release\GameServer.exe
+E:\KY\bin\Release\GameServer.pdb
+E:\KY\GameServer\gameserver\obj\x86\Release\GameServer.csproj.CopyComplete
+E:\KY\GameServer\gameserver\obj\x86\Release\GameServer.exe
+E:\KY\GameServer\gameserver\obj\x86\Release\GameServer.pdb
+E:\KY\GameServer\gameserver\obj\x86\Release\GameServer.csprojAssemblyReference.cache

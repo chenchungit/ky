@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<NameServers>
+		<Server ID="1" start="1" end="50" host="192.168.0.105" port="7878"/>
+		<Server ID="2" start="51" end="100" host="192.168.0.105" port="7878"/>
+		<Server ID="3" start="101" end="150" host="192.168.0.105" port="7878"/>
+	</NameServers>
+</Config>

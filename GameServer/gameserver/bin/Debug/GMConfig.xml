@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+	<!--GameManager游戏管理配置, SuperUserNames 超级GM管理员名称; UserNames GM管理员名称列表, 有多个使用半角的逗号分开, IPs允许操作的gm在线时的IP列表，多个使用半角的逗号分开-->
+	<GameManager SuperUserNames="test1,test2,test3,test4,test5,test6,test7,test8,test9,test10,test11" UserNames="*" IPs="*" />
+	<OtherNames>
+		<UserName Name="test8" Priority="1"/>
+		<UserName Name="test9" Priority="1"/>
+	</OtherNames>
+	<Prioritys>
+		<Priority ID="1" Cmds="-info2,-hide"/>
+	</Prioritys>	
+</Config>

@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using ProtoBuf;
+
+namespace Server.Data
+{
+    /// <summary>
+    /// 扩展属性命中通知
+    /// </summary>
+    [ProtoContract]
+    public class SpriteExtensionPropsHitedData
+    {
+        [ProtoMember(1)]
+        public int roleId;
+
+        [ProtoMember(2)]
+        public int enemy;
+
+        [ProtoMember(3)]
+        public int enemyX;
+
+        [ProtoMember(4)]
+        public int enemyY;
+
+        [ProtoMember(5)]
+        public int ExtensionPropID;
+    }
+}

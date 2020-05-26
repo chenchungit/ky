@@ -1,0 +1,1 @@
+d:\PROGRA~1\MONO-2~1.8\bin\mono.exe GameServer.exe

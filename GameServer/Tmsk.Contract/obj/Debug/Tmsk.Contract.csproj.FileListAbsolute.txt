@@ -1,0 +1,16 @@
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\bin\Debug\Tmsk.Contract.dll
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\bin\Debug\Tmsk.Contract.pdb
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\bin\Debug\protobuf-net.dll
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\bin\Debug\zlib.net.dll
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.csprojResolveAssemblyReference.cache
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.dll
+C:\Users\191842331\Documents\HXL\KoYo\server_trunk\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.pdb
+E:\KY\GameServer\Tmsk.Contract\bin\Debug\Tmsk.Contract.dll
+E:\KY\GameServer\Tmsk.Contract\bin\Debug\Tmsk.Contract.pdb
+E:\KY\GameServer\Tmsk.Contract\bin\Debug\protobuf-net.dll
+E:\KY\GameServer\Tmsk.Contract\bin\Debug\zlib.net.dll
+E:\KY\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.csproj.CoreCompileInputs.cache
+E:\KY\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.csproj.CopyComplete
+E:\KY\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.dll
+E:\KY\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.pdb
+E:\KY\GameServer\Tmsk.Contract\obj\Debug\Tmsk.Contract.csprojAssemblyReference.cache

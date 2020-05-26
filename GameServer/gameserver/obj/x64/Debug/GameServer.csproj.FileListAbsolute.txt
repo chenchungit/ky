@@ -1,0 +1,7 @@
+E:\KY\bin\Debug\GameServer.exe.config
+E:\KY\bin\Debug\GameServer.exe
+E:\KY\bin\Debug\GameServer.pdb
+E:\KY\GameServer\gameserver\obj\x64\Debug\GameServer.csproj.CoreCompileInputs.cache
+E:\KY\GameServer\gameserver\obj\x64\Debug\GameServer.csproj.CopyComplete
+E:\KY\GameServer\gameserver\obj\x64\Debug\GameServer.exe
+E:\KY\GameServer\gameserver\obj\x64\Debug\GameServer.pdb

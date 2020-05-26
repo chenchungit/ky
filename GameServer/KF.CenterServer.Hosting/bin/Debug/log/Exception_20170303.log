@@ -1,0 +1,398 @@
+2017-03-03 00:00:09: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 01:37:46: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-03 01:37:47: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 01:37:49: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-03 01:37:49: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-03 01:37:49: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-03 02:00:12: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 03:00:03: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 04:00:15: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 05:00:07: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 06:00:19: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 07:00:11: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 08:00:02: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 09:00:14: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 10:00:06: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 11:00:18: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 12:00:09: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 13:00:01: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 14:00:13: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 15:00:04: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 16:00:17: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 17:00:08: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 18:00:20: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 19:00:12: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 20:00:03: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 21:00:15: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 22:00:07: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-03 23:00:19: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+

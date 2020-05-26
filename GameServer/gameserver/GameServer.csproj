@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F05B7877-D5BF-44F7-9190-D80E0C4A14AF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameServer</RootNamespace>
+    <AssemblyName>GameServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Windows</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <NoWarn>0618 0168 0219 0414 0162</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GameServer.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '测试|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\测试\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Windows BetaConfig</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Windows</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == '测试|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\测试\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Windows BetaConfig</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Neo.Lua">
+      <HintPath>dlls\Neo.Lua.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>dlls\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="zlib.net, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dlls\zlib.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Core\Component\ExtComponent.cs" />
+    <Compile Include="cc\Attack\AttackManager.cs" />
+    <Compile Include="cc\Attack\MonsterAttackManager.cs" />
+    <Compile Include="cc\Attack\RoleAlgorithmManager.cs" />
+    <Compile Include="cc\CCTCPCmdHandler.cs" />
+    <Compile Include="cc\CMDProcess.cs" />
+    <Compile Include="cc\core\ScheduleExecutorTimer.cs" />
+    <Compile Include="cc\Defult\GlobalDefultManager.cs" />
+    <Compile Include="cc\Defult\GlobalDefultObject.cs" />
+    <Compile Include="cc\Defult\GlobalDefultOccTimeManager.cs" />
+    <Compile Include="cc\Defult\GlobalDefultOccTimeObject.cs" />
+    <Compile Include="cc\monster\MonsterData.cs" />
+    <Compile Include="cc\monster\Monter.cs" />
+    <Compile Include="cc\Protocol\KyCmdProtocol.cs" />
+    <Compile Include="cc\Protocol\KyMsgProtocol.cs" />
+    <Compile Include="cc\Role\RoleManager.cs" />
+    <Compile Include="cc\Skill\SkillManager.cs" />
+    <Compile Include="cc\Skill\SkillObject.cs" />
+    <Compile Include="ch\Comm\DebugHelper.cs" />
+    <Compile Include="ch\Logic\MsgManager.cs" />
+    <Compile Include="ch\Logic\ErrManager.cs" />
+    <Compile Include="ch\Role\RoleManager.cs" />
+    <Compile Include="Core\Executor\ScheduleExecutor2.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\CaiJiEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ClientRegionEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EMoGuangChangBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\EventObject4Scene.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\JingJiFuBenEndForTimeEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MingXiangBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterAttackedEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterBirthOnEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterBlooadChangedEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterDeadEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterInjuredEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterLivingTimeEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\MonsterToMonsterDeadEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PKKingHuoDongBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerDeadEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerInitGameEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLeaveFuBenEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLevelupEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\PlayerLogoutEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\SevenDayActEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\TanWeiGouMaiBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\XueSeChengBaoBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\YeWaiBossBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ZhanMengShijianBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventOjectImpl\ZhaoHuanUserIDBaseEventObject.cs" />
+    <Compile Include="Core\GameEvent\EventType.cs" />
+    <Compile Include="Core\GameEvent\GlobalEventSource.cs" />
+    <Compile Include="Core\GameEvent\IEventListener.cs" />
+    <Compile Include="Core\GameEvent\EventObject.cs" />
+    <Compile Include="Core\GameEvent\EventSource.cs" />
+    <Compile Include="Core\Executor\ScheduleExecutor.cs" />
+    <Compile Include="Core\GameEvent\SceneEventSource.cs" />
+    <Compile Include="Data\AchievementRuneBasicData.cs" />
+    <Compile Include="Data\AchievementRuneData.cs" />
+    <Compile Include="Data\AchievementRuneSpecialData.cs" />
+    <Compile Include="Data\ActivitiesData.cs" />
+    <Compile Include="Data\ActivityIconStateData.cs" />
+    <Compile Include="Data\AddGoodsData.cs" />
+    <Compile Include="Data\ArtifactData.cs" />
+    <Compile Include="Data\ArtifactResultData.cs" />
+    <Compile Include="Data\ArtifactSuitData.cs" />
+    <Compile Include="Data\AwardsItemList.cs" />
+    <Compile Include="Data\BangHuiDetailData.cs" />
+    <Compile Include="Data\BangHuiLingDiItemData.cs" />
+    <Compile Include="Data\BangHuiMiniData.cs" />
+    <Compile Include="Data\BattleEndRoleItem.cs" />
+    <Compile Include="Data\BiaoCheData.cs" />
+    <Compile Include="Data\BossData.cs" />
+    <Compile Include="Data\BufferData.cs" />
+    <Compile Include="Data\BulletinMsgData.cs" />
+    <Compile Include="Data\ChangeEquipData.cs" />
+    <Compile Include="Data\ChangeNameData.cs" />
+    <Compile Include="Data\ChargeDangData.cs" />
+    <Compile Include="Data\EquipPropsData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemConfigData\FluorescentGemDigConfigData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemConfigData\FluorescentGemLevelTypeConfigData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemConfigData\FluorescentGemSaveDBData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemConfigData\FluorescentGemUpConfigData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemData\FluorescentGemData.cs" />
+    <Compile Include="Data\FlourescentGem\FluorescentGemDefine\FluorescentGemDefine.cs" />
+    <Compile Include="Data\GiftCodeAwardData.cs" />
+    <Compile Include="Data\GongGaoData.cs" />
+    <Compile Include="Data\GuardStatueData.cs" />
+    <Compile Include="Data\InputKingPaiHangData.cs" />
+    <Compile Include="Data\JieriCZKingData.cs" />
+    <Compile Include="Data\JieriGiveData.cs" />
+    <Compile Include="Data\KingRoleData.cs" />
+    <Compile Include="Data\LingYuData.cs" />
+    <Compile Include="Data\GroupMailData.cs" />
+    <Compile Include="Data\LoadAlreadyData.cs" />
+    <Compile Include="Data\LuoLanChengZhanInfoData.cs" />
+    <Compile Include="Data\MagicSword\MagicSwordData.cs" />
+    <Compile Include="Data\MapTeleportInfo.cs" />
+    <Compile Include="Data\MarriageData.cs" />
+    <Compile Include="Data\MarryPartyData.cs" />
+    <Compile Include="Data\ModAttributeValueData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinData\MerlinAttrData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinData\MerlinGrowthSaveDBData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinConfigData\MerlinLevelUpConfigData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinConfigData\MerlinStarUpConfigData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinConfigData\MerlinSecretConfigData.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinConfigData\MerlinSystemParamsConfigData.cs" />
+    <Compile Include="Data\MonsterRealiveData.cs" />
+    <Compile Include="Data\NameRegisterData.cs" />
+    <Compile Include="Data\NewGoodsPackData.cs" />
+    <Compile Include="Data\PaiHangData.cs" />
+    <Compile Include="Data\PaiHangItemData.cs" />
+    <Compile Include="Data\ReceiveData\CS_ClickOn.cs" />
+    <Compile Include="Data\ReceiveData\CS_QueryFuBen.cs" />
+    <Compile Include="Data\ReceiveData\CS_SprUseGoods.cs" />
+    <Compile Include="Data\ReceiveData\CSPropAddPoint.cs" />
+    <Compile Include="Data\RoleKuaFuDayLogData.cs" />
+    <Compile Include="Data\PrestigeMedal\PrestigeMedalBasicData.cs" />
+    <Compile Include="Data\PrestigeMedal\PrestigeMedalData.cs" />
+    <Compile Include="Data\PrestigeMedal\PrestigeMedalSpecialData.cs" />
+    <Compile Include="Data\SaleGoodsSearchResultData.cs" />
+    <Compile Include="Data\SecondPasswordData.cs" />
+    <Compile Include="Data\SendData\SC_SprUseGoods.cs" />
+    <Compile Include="Data\SendData\SCAutoFight.cs" />
+    <Compile Include="Data\SendData\SCClientHeart.cs" />
+    <Compile Include="Data\SendData\SCCompTask.cs" />
+    <Compile Include="Data\SendData\SCFindMonster.cs" />
+    <Compile Include="Data\SendData\SCMapChange.cs" />
+    <Compile Include="Data\SendData\SCModGoods.cs" />
+    <Compile Include="Data\SendData\SCMoveEnd.cs" />
+    <Compile Include="Data\SendData\SCSkillLevelUp.cs" />
+    <Compile Include="Data\SendData\SCWingStarUp.cs" />
+    <Compile Include="Data\SpecialActivityData.cs" />
+    <Compile Include="Data\Talent\TalentExpInfo.cs" />
+    <Compile Include="Data\Talent\TalentData.cs" />
+    <Compile Include="Data\Talent\TalentInfo.cs" />
+    <Compile Include="Data\Talent\TalentPropData.cs" />
+    <Compile Include="Data\Talent\TalentResultType.cs" />
+    <Compile Include="Data\Talent\TalentSpecialInfo.cs" />
+    <Compile Include="Data\Talent\TallentEffectInfo.cs" />
+    <Compile Include="Data\Tarot\TarotCardData.cs" />
+    <Compile Include="Data\UserMiniData.cs" />
+    <Compile Include="Data\Warn\WarnInfo.cs" />
+    <Compile Include="Data\YueKaData.cs" />
+    <Compile Include="Interface\IBufferItem.cs" />
+    <Compile Include="Logic\ActivityNew\JieRiFuLiActivity.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayBuyAct.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayChargeAct.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayDefine.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayGoalAct.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayGoalEvPool.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayLoginAct.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayActivityMgr.cs" />
+    <Compile Include="Logic\ActivityNew\ActivityManagerNew.cs" />
+    <Compile Include="Logic\ActivityNew\JieriErrorCode.cs" />
+    <Compile Include="Logic\ActivityNew\JieriGiveActivity.cs" />
+    <Compile Include="Logic\ActivityNew\JieriGiveKingActivity.cs" />
+    <Compile Include="Logic\ActivityNew\JieriGiveRecv_Base.cs" />
+    <Compile Include="Logic\ActivityNew\JieriInputPointsActivity.cs" />
+    <Compile Include="Logic\ActivityNew\JieriLianXuChargeActivity.cs" />
+    <Compile Include="Logic\ActivityNew\JieriPlatChargeKing.cs" />
+    <Compile Include="Logic\ActivityNew\JieriRecvActivity.cs" />
+    <Compile Include="Logic\ActivityNew\JieriRecvKingActivity.cs" />
+    <Compile Include="Logic\ActivityNew\SevenDay\SevenDayProtobufData.cs" />
+    <Compile Include="Logic\ActivityNew\SpecialActivity.cs" />
+    <Compile Include="Logic\ActivityNew\WeekEndInputActivity.cs" />
+    <Compile Include="Logic\Algorithm\AlgorithmModule.cs" />
+    <Compile Include="Logic\Algorithm\BufferPropsManager.cs" />
+    <Compile Include="Logic\Algorithm\DataCheckModule.cs" />
+    <Compile Include="Logic\Algorithm\PassiveSkillModule.cs" />
+    <Compile Include="Logic\Algorithm\UsedStateList.cs" />
+    <Compile Include="Logic\ArtifactManager.cs" />
+    <Compile Include="Logic\Build\BuildingData.cs" />
+    <Compile Include="Logic\Build\BuildingManager.cs" />
+    <Compile Include="Logic\CaiJiLogic.cs" />
+    <Compile Include="Logic\CallPetManager.cs" />
+    <Compile Include="Logic\CheatGuard\CreateRoleLimitMgr.cs" />
+    <Compile Include="Logic\CheatGuard\GetInterestingDataMgr.cs" />
+    <Compile Include="Logic\CheatGuard\FileBanLogic.cs" />
+    <Compile Include="Logic\CheatGuard\RobotTaskValidator.cs" />
+    <Compile Include="Logic\CheatGuard\SpeedUpTickCheck.cs" />
+    <Compile Include="Logic\CheatGuard\TradeBlackManager.cs" />
+    <Compile Include="Logic\ChengZhan\LuoLanChengZhanData.cs" />
+    <Compile Include="Logic\CopyWolf\CopyWolfInfo.cs" />
+    <Compile Include="Logic\CopyWolf\CopyWolfManager.cs" />
+    <Compile Include="Logic\CopyWolf\CopyWolfSceneInfo.cs" />
+    <Compile Include="Logic\DamageMonitor\DamageMonitor.cs" />
+    <Compile Include="Logic\Copy\CopyTeamManager_KuaFu.cs" />
+    <Compile Include="Logic\Copy\CopyTeamManager_Callback.cs" />
+    <Compile Include="Logic\Copy\FuBenChecker.cs" />
+    <Compile Include="Logic\Copy\UniqueTeamId.cs" />
+    <Compile Include="Logic\Damon\JingLingQiYuanData.cs" />
+    <Compile Include="Logic\Damon\JingLingQiYuanManager.cs" />
+    <Compile Include="Logic\ElementsAttack\ElementsAttackManager.cs" />
+    <Compile Include="Logic\EventLog\EventLogData.cs" />
+    <Compile Include="Logic\EventLog\EventLogManager.cs" />
+    <Compile Include="Logic\FluorescentGem\FluorescentGemManager.cs" />
+    <Compile Include="Logic\ElementWar\ElementWarData.cs" />
+    <Compile Include="Logic\ElementWar\ElementWarManager.cs" />
+    <Compile Include="Logic\ElementWar\ElementWarManager_Copy.cs" />
+    <Compile Include="Logic\ElementWar\ElementWarProbufData.cs" />
+    <Compile Include="Logic\ElementWar\ElementWarScene.cs" />
+    <Compile Include="Logic\Fund\FundData.cs" />
+    <Compile Include="Logic\Fund\FundEnum.cs" />
+    <Compile Include="Logic\Fund\FundInfo.cs" />
+    <Compile Include="Logic\Fund\FundManager.cs" />
+    <Compile Include="Logic\FluorescentGem\SoulStoneDefine.cs" />
+    <Compile Include="Logic\FluorescentGem\SoulStoneManager.cs" />
+    <Compile Include="Logic\FluorescentGem\SoulStoneProtobufData.cs" />
+    <Compile Include="Logic\GameFuncControlManager.cs" />
+    <Compile Include="Logic\GiftCodeNewManager.cs" />
+    <Compile Include="Logic\Goods\PetSkillInfo.cs" />
+    <Compile Include="Logic\Goods\PetSkillManager.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanClient.cs" />
+    <Compile Include="Logic\KingOfBattle\KingOfBattleData.cs" />
+    <Compile Include="Logic\KingOfBattle\KingOfBattleManager.cs" />
+    <Compile Include="Logic\KingOfBattle\KingOfBattleManager_Copy.cs" />
+    <Compile Include="Logic\KingOfBattle\KingOfBattleProbufData.cs" />
+    <Compile Include="Logic\KingOfBattle\KingOfBattleScene.cs" />
+    <Compile Include="Logic\KuaFuBoss\KuaFuBossData.cs" />
+    <Compile Include="Logic\KuaFuBoss\KuaFuBossManager.cs" />
+    <Compile Include="Logic\KuaFuBoss\KuaFuBossManager_Copy.cs" />
+    <Compile Include="Logic\KuaFuBoss\KuaFuBossProbufData.cs" />
+    <Compile Include="Logic\KuaFuBoss\KuaFuBossScene.cs" />
+    <Compile Include="Logic\KuaFuMap\KuaFuMapData.cs" />
+    <Compile Include="Logic\KuaFuMap\KuaFuMapManager.cs" />
+    <Compile Include="Logic\KuaFuMap\KuaFuMapProbufData.cs" />
+    <Compile Include="Logic\KuaFu\KFCopyRpcClient.cs" />
+    <Compile Include="Logic\LoginWaiting\LoginWaitLogic.cs" />
+    <Compile Include="Logic\Marriage\CoupleArena\CoupleArenaCopyScene.cs" />
+    <Compile Include="Logic\Marriage\CoupleArena\CoupleArenaDefine.cs" />
+    <Compile Include="Logic\Marriage\CoupleArena\CoupleArenaManager.cs" />
+    <Compile Include="Logic\Marriage\CoupleArena\CoupleArenaManager_Copy.cs" />
+    <Compile Include="Logic\Marriage\CoupleArena\CoupleArenaProtobufData.cs" />
+    <Compile Include="Logic\Marriage\CoupleWish\CoupleWishManager.cs" />
+    <Compile Include="Logic\Marriage\CoupleWish\CoupleWishProtobufData.cs" />
+    <Compile Include="Logic\Marriage\CoupleWish\CoupleWishStatueManager.cs" />
+    <Compile Include="Logic\MonsterAttackerLogManager.cs" />
+    <Compile Include="Logic\MoRi\MoRiJudgeConsts.cs" />
+    <Compile Include="Logic\MoRi\MoRiJudgeCopy.cs" />
+    <Compile Include="Logic\MoRi\MoRiJudgeData.cs" />
+    <Compile Include="Logic\MoRi\MoRiJudgeManager.cs" />
+    <Compile Include="Logic\Name\NameManager.cs" />
+    <Compile Include="Data\MerlinMagicBook\MerlinDefine\MerlinMagicBookDefine.cs" />
+    <Compile Include="Logic\MerlinMagicBook\MerlinInjureManager.cs" />
+    <Compile Include="Logic\OnePiece\OnePieceData.cs" />
+    <Compile Include="Logic\OnePiece\OnePieceManager.cs" />
+    <Compile Include="Logic\PlatConfig.cs" />
+    <Compile Include="Logic\ProtoCheck\ProtoChecker.cs" />
+    <Compile Include="Logic\LangHunLingYu\LangHunLingYuManager.cs" />
+    <Compile Include="Logic\LangHunLingYu\LangHunLingYuManager_Copy.cs" />
+    <Compile Include="Logic\LangHunLingYu\LangHunLingYuProbufData.cs" />
+    <Compile Include="Logic\LangHunLingYu\LangHunLingYuScene.cs" />
+    <Compile Include="Logic\LangHunLingYu\LangHunLingYuData.cs" />
+    <Compile Include="Logic\Spread\SpreadClient.cs" />
+    <Compile Include="Logic\TainTi\TianTiClient.cs" />
+    <Compile Include="Logic\TainTi\ZhengBaManager.cs" />
+    <Compile Include="Logic\TainTi\ZhengBaProtobufData.cs" />
+    <Compile Include="Logic\Tarot\TarotManager.cs" />
+    <Compile Include="Logic\Ten\TenAwardData.cs" />
+    <Compile Include="Logic\Ten\TenManager.cs" />
+    <Compile Include="Logic\Ten\TenRetutnData.cs" />
+    <Compile Include="Logic\Ten\TenRetutnManager.cs" />
+    <Compile Include="Logic\Today\EToday.cs" />
+    <Compile Include="Logic\Today\TodayInfo.cs" />
+    <Compile Include="Logic\Today\TodayManager.cs" />
+    <Compile Include="Logic\Spread\SpreadAwardInfo.cs" />
+    <Compile Include="Logic\Spread\SpreadCountAwardInfo.cs" />
+    <Compile Include="Logic\Spread\SpreadData.cs" />
+    <Compile Include="Logic\Spread\SpreadEnum.cs" />
+    <Compile Include="Logic\Spread\SpreadManager.cs" />
+    <Compile Include="Logic\TuJian\GuardStatueDefine.cs" />
+    <Compile Include="Logic\TuJian\GuardStatueManager.cs" />
+    <Compile Include="Logic\Goods\ConditionConcrete.cs" />
+    <Compile Include="Logic\HolyItemManager.cs" />
+    <Compile Include="Logic\MagicSword\MagicSwordManager.cs" />
+    <Compile Include="Logic\Goods\GoodsCanUseManager.cs" />
+    <Compile Include="Logic\Goods\IConditionJudger.cs" />
+    <Compile Include="Logic\TainTi\TianTiContextData.cs" />
+    <Compile Include="Logic\TainTi\TianTiData.cs" />
+    <Compile Include="Logic\TainTi\TianTiManager.cs" />
+    <Compile Include="Logic\TainTi\TianTiManager_Copy.cs" />
+    <Compile Include="Logic\TainTi\TianTiProbufData.cs" />
+    <Compile Include="Logic\TainTi\TianTiScene.cs" />
+    <Compile Include="Logic\MerlinMagicBook\MerlinMagicBookManager.cs" />
+    <Compile Include="Logic\TuJian\TuJianManager.cs" />
+    <Compile Include="Logic\Talent\TalentManager.cs" />
+    <Compile Include="Logic\UnionAlly\AllyClient.cs" />
+    <Compile Include="Logic\UnionAlly\AllyManager.cs" />
+    <Compile Include="Logic\UnionPalace\UnionPalaceInfo.cs" />
+    <Compile Include="Logic\UnionPalace\UnionPalaceData.cs" />
+    <Compile Include="Logic\UnionPalace\UnionPalaceManager.cs" />
+    <Compile Include="Logic\UserActivate\UserActivateManager.cs" />
+    <Compile Include="Logic\UserReturn\RecallInfo.cs" />
+    <Compile Include="Logic\UserReturn\ReturnData.cs" />
+    <Compile Include="Logic\UserReturn\ReturnInfo.cs" />
+    <Compile Include="Logic\UserReturn\UserReturnData.cs" />
+    <Compile Include="Logic\VersionSystemOpenManager.cs" />
+    <Compile Include="Logic\Common\ConfigParser.cs" />
+    <Compile Include="Logic\Common\LevelAwardsMgr.cs" />
+    <Compile Include="Logic\Common\MapEventMgr.cs" />
+    <Compile Include="Logic\Copy\LuoLanFaZhenCopySceneManager.cs" />
+    <Compile Include="Logic\CorInterface.cs" />
+    <Compile Include="Logic\Damon\DamonMgr.cs" />
+    <Compile Include="Logic\Damon\SaleDamons.cs" />
+    <Compile Include="Logic\Damon\UpgradeDamon.cs" />
+    <Compile Include="Logic\CheckCheat.cs" />
+    <Compile Include="Logic\ElementhrtsManager.cs" />
+    <Compile Include="Logic\EMoLaiXiCopySceneManager.cs" />
+    <Compile Include="Logic\EMoLaiXiCopySence.cs" />
+    <Compile Include="Logic\GetMapcodeOnlineNumManager.cs" />
+    <Compile Include="Logic\GlobalNew.cs" />
+    <Compile Include="Logic\GongGaoDataManager.cs" />
+    <Compile Include="Logic\Goods\FashionData.cs" />
+    <Compile Include="Logic\Goods\FashionManager.cs" />
+    <Compile Include="Logic\Goods\GoodsReplaceManager.cs" />
+    <Compile Include="Logic\Goods\UpdateGoodsArgs.cs" />
+    <Compile Include="Logic\Goods\WashPropsManager.cs" />
+    <Compile Include="Logic\GuildCopyMapManager.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanContextData.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanProbufData.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanScene.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanData.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanManager.cs" />
+    <Compile Include="Logic\HuanYingSiYuan\HuanYingSiYuanManager_Copy.cs" />
+    <Compile Include="Logic\JingJiChang\PrestigeMedalManager.cs" />
+    <Compile Include="Logic\KuaFu\KuaFuData.cs" />
+    <Compile Include="Logic\KuaFu\KuaFuManager.cs" />
+    <Compile Include="Logic\GroupMailManager.cs" />
+    <Compile Include="Logic\LianZhiManager.cs" />
+    <Compile Include="Logic\LingYuManager.cs" />
+    <Compile Include="Logic\LogDBCmdManager.cs" />
+    <Compile Include="Logic\LuaExeManager.cs" />
+    <Compile Include="Logic\ChengZhan\LuoLanChengZhanManager.cs" />
+    <Compile Include="Logic\MagicsManyTimeDmageCachingMgr.cs" />
+    <Compile Include="Logic\MagicsManyTimeDmageQueue.cs" />
+    <Compile Include="Logic\Marriage\MarriageFuBenMgr.cs" />
+    <Compile Include="Logic\Marriage\MarriageLogic.cs" />
+    <Compile Include="Logic\Marriage\MarryOtherLogic.cs" />
+    <Compile Include="Logic\Marriage\MarryPartyDataCache.cs" />
+    <Compile Include="Logic\Marriage\MarryPartyLogic.cs" />
+    <Compile Include="Logic\MUWings\ZhuLingZhuHunManager.cs" />
+    <Compile Include="Logic\NewBufferExt\BufferExtManager.cs" />
+    <Compile Include="Logic\NewBufferExt\DelayInjuredBufferItem.cs" />
+    <Compile Include="Logic\NewBufferExt\HuZhaoBufferItem.cs" />
+    <Compile Include="Logic\NewChangeLife\ChangeLifeDataInfo.cs" />
+    <Compile Include="Logic\NewChangeLife\ChangeLifeManager.cs" />
+    <Compile Include="Logic\PropsCacheManager.cs" />
+    <Compile Include="Logic\QingGongYanManager.cs" />
+    <Compile Include="Logic\RangeKey.cs" />
+    <Compile Include="Data\CopySearchTeamData.cs" />
+    <Compile Include="Data\CopyTeamData.cs" />
+    <Compile Include="Data\CopyTeamMemberData.cs" />
+    <Compile Include="Data\DailyActiveData.cs" />
+    <Compile Include="Data\DailyJingMaiData.cs" />
+    <Compile Include="Data\DailyTaskData.cs" />
+    <Compile Include="Data\DecorationData.cs" />
+    <Compile Include="Data\DJRoomData.cs" />
+    <Compile Include="Data\DJRoomRoleData.cs" />
+    <Compile Include="Data\DJRoomRolePoint.cs" />
+    <Compile Include="Data\DJRoomRolesData.cs" />
+    <Compile Include="Data\DJRoomRolesPoint.cs" />
+    <Compile Include="Data\ExchangeData.cs" />
+    <Compile Include="Data\FakeRoleData.cs" />
+    <Compile Include="Data\FriendData.cs" />
+    <Compile Include="Data\FuBenData.cs" />
+    <Compile Include="Data\FuBenHistData.cs" />
+    <Compile Include="Data\FuBenTongGuanData.cs" />
+    <Compile Include="Data\GoodsData.cs" />
+    <Compile Include="Data\GoodsLimitData.cs" />
+    <Compile Include="Data\GoodsPackListData.cs" />
+    <Compile Include="Data\HorseData.cs" />
+    <Compile Include="Data\HuangChengMapInfoData.cs" />
+    <Compile Include="Data\HuodongData.cs" />
+    <Compile Include="Data\JieriXmlData.cs" />
+    <Compile Include="Data\JingJiBeChallengeData.cs" />
+    <Compile Include="Data\JingJiChallengeInfoData.cs" />
+    <Compile Include="Data\JingJiChallengeResultData.cs" />
+    <Compile Include="Data\JingJiDetailData.cs" />
+    <Compile Include="Data\JingJiSaveData.cs" />
+    <Compile Include="Data\JingMaiData.cs" />
+    <Compile Include="Data\JiQingHuiKuiData.cs" />
+    <Compile Include="Data\JunQiData.cs" />
+    <Compile Include="Data\KaiFuActivityData.cs" />
+    <Compile Include="Data\KaiFuOnlineAwardData.cs" />
+    <Compile Include="Data\KaiFuOnlineInfoData.cs" />
+    <Compile Include="Data\LayerRewardData.cs" />
+    <Compile Include="Data\LingDiMapInfoData.cs" />
+    <Compile Include="Data\MailData.cs" />
+    <Compile Include="Data\MailGoodsData.cs" />
+    <Compile Include="Data\MonsterData.cs" />
+    <Compile Include="Data\NewZoneUplevelData.cs" />
+    <Compile Include="Data\NewZoneUpLevelItemData.cs" />
+    <Compile Include="Data\NPCData.cs" />
+    <Compile Include="Data\NPCTaskState.cs" />
+    <Compile Include="Data\OldResourceInfo.cs" />
+    <Compile Include="Data\OldTaskData.cs" />
+    <Compile Include="Data\OneKeyFindFriendData.cs" />
+    <Compile Include="Data\PetData.cs" />
+    <Compile Include="Data\PlayerJingJiData.cs" />
+    <Compile Include="Data\PlayerJingJiEquipData.cs" />
+    <Compile Include="Data\PlayerJingJiMiniData.cs" />
+    <Compile Include="Data\PlayerJingJiRankingData.cs" />
+    <Compile Include="Data\PlayerJingJiSkillData.cs" />
+    <Compile Include="Data\PortableBagData.cs" />
+    <Compile Include="Data\PushMessageData.cs" />
+    <Compile Include="Data\QiangGouBuyItemData.cs" />
+    <Compile Include="Data\QiangGouItemData.cs" />
+    <Compile Include="Data\QiZhenGeItemData.cs" />
+    <Compile Include="Data\RoleDailyData.cs" />
+    <Compile Include="Data\RoleDamage.cs" />
+    <Compile Include="Data\RoleData.cs" />
+    <Compile Include="Data\RoleData4Selector.cs" />
+    <Compile Include="Data\RoleDataEx.cs" />
+    <Compile Include="Data\RoleDataMini.cs" />
+    <Compile Include="Data\RoleParamsData.cs" />
+    <Compile Include="Data\SaleGoodsData.cs" />
+    <Compile Include="Data\SaleRoleData.cs" />
+    <Compile Include="Data\SearchRoleData.cs" />
+    <Compile Include="Data\SearchTeamData.cs" />
+    <Compile Include="Data\ShiLianTaAwardsInfoData.cs" />
+    <Compile Include="Data\SkillData.cs" />
+    <Compile Include="Data\SpriteActionData.cs" />
+    <Compile Include="Data\SpriteAttackData.cs" />
+    <Compile Include="Data\SpriteAttackResultData.cs" />
+    <Compile Include="Data\SpriteExtensionPropsHitedData.cs" />
+    <Compile Include="Data\SpriteHitedData.cs" />
+    <Compile Include="Data\SpriteInjuredData.cs" />
+    <Compile Include="Data\SpriteLifeChangeData.cs" />
+    <Compile Include="Data\SpriteMagicCodeData.cs" />
+    <Compile Include="Data\SpriteMoveData.cs" />
+    <Compile Include="Data\SpriteNotifyOtherMoveData.cs" />
+    <Compile Include="Data\SpritePositionData.cs" />
+    <Compile Include="Data\SpriteRelifeData.cs" />
+    <Compile Include="Data\StallData.cs" />
+    <Compile Include="Data\TaskAwardsData.cs" />
+    <Compile Include="Data\TaskData.cs" />
+    <Compile Include="Data\TeamData.cs" />
+    <Compile Include="Data\TeamMemberData.cs" />
+    <Compile Include="Data\TodayCandoData.cs" />
+    <Compile Include="Data\VipDailyData.cs" />
+    <Compile Include="Data\WangChengChengMapInfoData.cs" />
+    <Compile Include="Data\WingData.cs" />
+    <Compile Include="Data\YangGongBKDailyJiFenData.cs" />
+    <Compile Include="Data\NPCRole.cs" />
+    <Compile Include="Data\LuaCallResultData.cs" />
+    <Compile Include="Data\ChengJiuData.cs" />
+    <Compile Include="Data\MallSaleData.cs" />
+    <Compile Include="Interface\ITriggerCondition.cs" />
+    <Compile Include="Interface\IObject.cs" />
+    <Compile Include="Interface\IPosition.cs" />
+    <Compile Include="Data\ListRolesData.cs" />
+    <Compile Include="Logic\AdvanceBufferPropsMgr.cs" />
+    <Compile Include="Logic\AllThingsCalcItem.cs" />
+    <Compile Include="Data\AwardsItemData.cs" />
+    <Compile Include="Logic\AngelTempleManager.cs" />
+    <Compile Include="Logic\AngelTempleSceneInfo.cs" />
+    <Compile Include="Logic\BanChatManager.cs" />
+    <Compile Include="Logic\BangHuiJunQiItemData.cs" />
+    <Compile Include="Logic\BangHui\ZhanMengShiJian\ZhanMengShiJianData.cs" />
+    <Compile Include="Logic\BangHui\ZhanMengShiJian\ZhanMengShiJianManager.cs" />
+    <Compile Include="Logic\BangZhanAwardsMgr.cs" />
+    <Compile Include="Logic\BanManager.cs" />
+    <Compile Include="Logic\BattleManager.cs" />
+    <Compile Include="Logic\BiaoCheIDManager.cs" />
+    <Compile Include="Logic\BiaoCheItem.cs" />
+    <Compile Include="Logic\BiaoCheManager.cs" />
+    <Compile Include="Logic\BloodCastleCopySceneManager.cs" />
+    <Compile Include="Logic\BloodCastleScene.cs" />
+    <Compile Include="Logic\BossAI\BossAICachingMgr.cs" />
+    <Compile Include="Logic\BossAI\BossAIEventListener.cs" />
+    <Compile Include="Logic\BossAI\BossAIManager.cs" />
+    <Compile Include="Logic\BossHomeManager.cs" />
+    <Compile Include="Logic\BroadcastInfoMgr.cs" />
+    <Compile Include="Logic\BuChangManager.cs" />
+    <Compile Include="Logic\BulletinMsgManager.cs" />
+    <Compile Include="Logic\CGetOldResourceManager.cs" />
+    <Compile Include="Logic\ChengJiuManager.cs" />
+    <Compile Include="Logic\ChuanQiQianHua.cs" />
+    <Compile Include="Logic\ChuanQiUtils.cs" />
+    <Compile Include="Logic\Class.cs" />
+    <Compile Include="Logic\CopyMap.cs" />
+    <Compile Include="Logic\CopyMapManager.cs" />
+    <Compile Include="Logic\Copy\CopyTeamManager.cs" />
+    <Compile Include="Logic\DailyActiveManager.cs" />
+    <Compile Include="Logic\DaimonSquareCopySceneManager.cs" />
+    <Compile Include="Logic\DaimonSquareScene.cs" />
+    <Compile Include="Logic\Data.cs" />
+    <Compile Include="Logic\DateTimeRange.cs" />
+    <Compile Include="Logic\DBCmdManager.cs" />
+    <Compile Include="Logic\DBCmdPool.cs" />
+    <Compile Include="Logic\DBCommand.cs" />
+    <Compile Include="Logic\DBMonsterBuffer.cs" />
+    <Compile Include="Logic\DBRoleBuffer.cs" />
+    <Compile Include="Logic\DecorationManager.cs" />
+    <Compile Include="Logic\DelayActionManager.cs" />
+    <Compile Include="Logic\DelayForceClosingMgr.cs" />
+    <Compile Include="Logic\DJRoomManager.cs" />
+    <Compile Include="Logic\EnchaseJewelMgr.cs" />
+    <Compile Include="Logic\Enumeration.cs" />
+    <Compile Include="Logic\EquipProps.cs" />
+    <Compile Include="Logic\EquipUpgradeCacheMgr.cs" />
+    <Compile Include="Logic\EquipUpgradeMgr.cs" />
+    <Compile Include="Logic\ExperienceCopyScene.cs" />
+    <Compile Include="Logic\ExperienceCopySceneManager.cs" />
+    <Compile Include="Logic\ExtensionProps\ExtensionPropsMgr.cs" />
+    <Compile Include="Logic\ExtensionProps\SpriteExtensionProps.cs" />
+    <Compile Include="Logic\FakeRoleIDManager.cs" />
+    <Compile Include="Logic\FakeRoleItem.cs" />
+    <Compile Include="Logic\FakeRoleManager.cs" />
+    <Compile Include="Logic\FreshPlayerCopySceneManager.cs" />
+    <Compile Include="Logic\FuBenManager.cs" />
+    <Compile Include="Logic\GameClient.cs" />
+    <Compile Include="Logic\ClientManager.cs" />
+    <Compile Include="Logic\GameConfig.cs" />
+    <Compile Include="Logic\GameManager.cs" />
+    <Compile Include="Logic\GameMap.cs" />
+    <Compile Include="Logic\GeneralCachingXmlMgr.cs" />
+    <Compile Include="Logic\Global.cs" />
+    <Compile Include="Logic\GlobalServiceManager.cs" />
+    <Compile Include="Logic\GlodCopySceneManager.cs" />
+    <Compile Include="Logic\GMCommands.cs" />
+    <Compile Include="Logic\GoldCopyScene.cs" />
+    <Compile Include="Logic\GoldTempleManager.cs" />
+    <Compile Include="Logic\GoodsBaoGuoCachingMgr.cs" />
+    <Compile Include="Logic\GoodsBaoXiang.cs" />
+    <Compile Include="Logic\GoodsCoolDownMgr.cs" />
+    <Compile Include="Logic\GoodsExchangeManager.cs" />
+    <Compile Include="Logic\GoodsPackManager.cs" />
+    <Compile Include="Logic\GuildManager.cs" />
+    <Compile Include="Logic\HorseCachingManager.cs" />
+    <Compile Include="Logic\HuangChengManager.cs" />
+    <Compile Include="Logic\HuodongCachingMgr.cs" />
+    <Compile Include="Logic\JingJiChang\FinishStateMachine.cs" />
+    <Compile Include="Logic\JingJiChang\JingJiChangInstance.cs" />
+    <Compile Include="Logic\JingJiChang\JingJiChangManager.cs" />
+    <Compile Include="Logic\JingJiChang\Robot.cs" />
+    <Compile Include="Logic\JingMaiCacheManager.cs" />
+    <Compile Include="Logic\JunQiIDManager.cs" />
+    <Compile Include="Logic\JunQiItem.cs" />
+    <Compile Include="Logic\JunQiManager.cs" />
+    <Compile Include="Logic\LiXianBaiTan\LiXianBaiTanManager.cs" />
+    <Compile Include="Logic\LiXianGuaJi\LiXianGuaJiManager.cs" />
+    <Compile Include="Logic\MagicAction.cs" />
+    <Compile Include="Logic\MagicCoolDownMgr.cs" />
+    <Compile Include="Logic\MagicsCacheManager.cs" />
+    <Compile Include="Logic\MallGoodsMgr.cs" />
+    <Compile Include="Logic\MallPriceMgr.cs" />
+    <Compile Include="Logic\MapGrid.cs" />
+    <Compile Include="Logic\MapGridMagicHelper.cs" />
+    <Compile Include="Logic\MapGridManager.cs" />
+    <Compile Include="Logic\MapManager.cs" />
+    <Compile Include="Logic\MergeNewGoods.cs" />
+    <Compile Include="Logic\Monster.cs" />
+    <Compile Include="Logic\MonsterBossManager.cs" />
+    <Compile Include="Logic\MonsterContainer.cs" />
+    <Compile Include="Logic\MonsterIDManager.cs" />
+    <Compile Include="Logic\MonsterManager.cs" />
+    <Compile Include="Logic\MonsterMoving.cs" />
+    <Compile Include="Logic\MonsterNameManager.cs" />
+    <Compile Include="Logic\MonsterTask.cs" />
+    <Compile Include="Logic\MonsterZone.cs" />
+    <Compile Include="Logic\MonsterZoneManager.cs" />
+    <Compile Include="Logic\MUWings\MUWingsManager.cs" />
+    <Compile Include="Logic\MUWings\WingPropsCacheManager.cs" />
+    <Compile Include="Logic\MUWings\WingStarCacheManager.cs" />
+    <Compile Include="Logic\NewZoneActiveManager.cs" />
+    <Compile Include="Logic\NPCGeneralManager.cs" />
+    <Compile Include="Logic\NPCSaleList.cs" />
+    <Compile Include="Logic\NPCTasksManager.cs" />
+    <Compile Include="Logic\PaoHuanTasksMgr.cs" />
+    <Compile Include="Logic\PerformanceTest.cs" />
+    <Compile Include="Logic\PetIDManager.cs" />
+    <Compile Include="Logic\PetsManager.cs" />
+    <Compile Include="Logic\PopupWinMgr.cs" />
+    <Compile Include="Logic\PorcessCmdMoniter.cs" />
+    <Compile Include="Logic\ProcessAreaScripts.cs" />
+    <Compile Include="Logic\ProcessHorse.cs" />
+    <Compile Include="Logic\ProcessSessionTask.cs" />
+    <Compile Include="Logic\ProcessTask.cs" />
+    <Compile Include="Logic\QianKunManager.cs" />
+    <Compile Include="Logic\QiZhenGeManager.cs" />
+    <Compile Include="Logic\RechargeRepayActiveMgr.cs" />
+    <Compile Include="Logic\RefreshIconState\ActivityTipTypes.cs" />
+    <Compile Include="Logic\RefreshIconState\IconStateManager.cs" />
+    <Compile Include="Logic\RefreshIconState\TimerBossManager.cs" />
+    <Compile Include="Logic\ReloadXmlManager.cs" />
+    <Compile Include="Logic\RoleSpeedControl.cs" />
+    <Compile Include="Logic\SaleManager.cs" />
+    <Compile Include="Logic\SearchTable.cs" />
+    <Compile Include="Logic\SecondPassword\SecondPasswordError.cs" />
+    <Compile Include="Logic\SecondPassword\SecondPasswordManager.cs" />
+    <Compile Include="Logic\ShareManager.cs" />
+    <Compile Include="Logic\ShengXiaoGuessManager.cs" />
+    <Compile Include="Logic\SingleEquipAddPropMgr.cs" />
+    <Compile Include="Logic\SingleEquipProps.cs" />
+    <Compile Include="Logic\SpecailTimeManager.cs" />
+    <Compile Include="Logic\SpecialEquipMgr.cs" />
+    <Compile Include="Logic\StarConstellation\StarConstellationInfo.cs" />
+    <Compile Include="Logic\StarConstellation\StarConstellationManager.cs" />
+    <Compile Include="Logic\StateRate.cs" />
+    <Compile Include="Logic\StoryBoard4Client.cs" />
+    <Compile Include="Logic\TodayCandoManager.cs" />
+    <Compile Include="Logic\UseFruitVerify.cs" />
+    <Compile Include="Logic\UserReturn\UserReturnManager.cs" />
+    <Compile Include="Logic\UsingEquipManager.cs" />
+    <Compile Include="Logic\Video\VideoLogic.cs" />
+    <Compile Include="Logic\WangChengManager.cs" />
+    <Compile Include="Logic\WanMota\SweepWanmota.cs" />
+    <Compile Include="Logic\WanMota\SweepWanMotaManager.cs" />
+    <Compile Include="Logic\WanMota\WanMotaCopySceneManager.cs" />
+    <Compile Include="Logic\WanMota\WanMoTaDBCommandManager.cs" />
+    <Compile Include="Logic\WanMota\WanMoTaTopLayerManager.cs" />
+    <Compile Include="Logic\Warn\WarnManager.cs" />
+    <Compile Include="Logic\WeaponAdornManager.cs" />
+    <Compile Include="Logic\WeighItems.cs" />
+    <Compile Include="Logic\CopyWolf\CopyWolfData.cs" />
+    <Compile Include="Logic\WorldLevelManager.cs" />
+    <Compile Include="Logic\WuXingMapMgr.cs" />
+    <Compile Include="Logic\RoleAlgorithm.cs" />
+    <Compile Include="Logic\RoleName2IDs.cs" />
+    <Compile Include="Logic\RunNPCScripts.cs" />
+    <Compile Include="Logic\SafeClientData.cs" />
+    <Compile Include="Logic\SaleGoodsManager.cs" />
+    <Compile Include="Logic\SaleRoleManager.cs" />
+    <Compile Include="Logic\ServerEvents.cs" />
+    <Compile Include="Logic\SoldiersManager.cs" />
+    <Compile Include="Logic\SpriteAttack.cs" />
+    <Compile Include="Logic\SpriteBuffer.cs" />
+    <Compile Include="Logic\SpriteContainer.cs" />
+    <Compile Include="Logic\SpriteMagicHelper.cs" />
+    <Compile Include="Logic\SystemGoodsManager.cs" />
+    <Compile Include="Logic\SystemMagicAction.cs" />
+    <Compile Include="Logic\SystemMagicManager.cs" />
+    <Compile Include="Logic\SystemParamsList.cs" />
+    <Compile Include="Logic\SystemXmlItem.cs" />
+    <Compile Include="Logic\SystemXmlItems.cs" />
+    <Compile Include="Logic\TaskAwards.cs" />
+    <Compile Include="Logic\TeamManager.cs" />
+    <Compile Include="Logic\UnhandedException.cs" />
+    <Compile Include="Logic\UnregisterUserIDMgr.cs" />
+    <Compile Include="Logic\UserSession.cs" />
+    <Compile Include="Logic\UsingGoods.cs" />
+    <Compile Include="Logic\WaBaoManager.cs" />
+    <Compile Include="Data\YaBiaoData.cs" />
+    <Compile Include="Logic\YangGongBKManager.cs" />
+    <Compile Include="Logic\LuaManager.cs" />
+    <Compile Include="Logic\ArenaBattleManager.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangClient.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangContextData.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangData.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangManager.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangManager_Copy.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangProbufData.cs" />
+    <Compile Include="Logic\YongZheZhanChang\YongZheZhanChangScene.cs" />
+    <Compile Include="Logic\YueKa\YueKaAward.cs" />
+    <Compile Include="Logic\YueKa\YueKaDetail.cs" />
+    <Compile Include="Logic\YueKa\YueKaError.cs" />
+    <Compile Include="Logic\YueKa\YueKaManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Protocol\CmdPacket.cs" />
+    <Compile Include="Protocol\TCPConsts.cs" />
+    <Compile Include="Protocol\TCPInPacket.cs" />
+    <Compile Include="Protocol\TCPInPacketPool.cs" />
+    <Compile Include="Protocol\TCPOutPacket.cs" />
+    <Compile Include="Protocol\TCPOutPacketPool.cs" />
+    <Compile Include="Protocol\TCPPolicy.cs" />
+    <Compile Include="Protocol\UserLoginToken.cs" />
+    <Compile Include="Server\CacheManager.cs" />
+    <Compile Include="Server\CmdProcesser\CmdRegisterTriggerManager.cs" />
+    <Compile Include="Server\CmdProcesser\GetSweepWanMoTaAwardCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\GetWanMoTaDetailCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\GetWingInfoCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\ICmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiChallengeInfoCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiDetailCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiGetBuffCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiGetRoleLooksCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiJunxianLevelupCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiLeaveFuBenCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiRemoveCDCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiRequestChallengeCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiRankingRewardCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\JingJiStartFightCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\LianZhiCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\SaleCmdsProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\SweepWanMoTaCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\UpGradeChengLevelCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\WashPropsCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\WingOffOnCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\WingUpgradeCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\WingUpStarCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\ZhanMengBuildGetBufferCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\ZhanMengBuildUpLevelCmdProcessor.cs" />
+    <Compile Include="Server\CmdProcesser\ZhanMengShiJianDetailCmdProcessor.cs" />
+    <Compile Include="Server\NameServerNamager.cs" />
+    <Compile Include="Server\SendCmdManager.cs" />
+    <Compile Include="Server\SendCmdWrapper.cs" />
+    <Compile Include="Server\TCPCmdWrapper.cs" />
+    <Compile Include="Server\TCPClient.cs" />
+    <Compile Include="Server\TCPClientPool.cs" />
+    <Compile Include="Server\TCPCmdHandler.cs" />
+    <Compile Include="Server\TCPCmdDispatcher.cs" />
+    <Compile Include="Server\TCPManager.cs" />
+    <Compile Include="Logic\TCPRandKey.cs" />
+    <Compile Include="Server\TCPSession.cs" />
+    <Compile Include="TCP\BufferManager.cs" />
+    <Compile Include="TCP\FullBufferManager.cs" />
+    <Compile Include="TCP\SendBuffer.cs" />
+    <Compile Include="TCP\SendBufferManager.cs" />
+    <Compile Include="TCP\SocketAsyncEventArgsPool.cs" />
+    <Compile Include="TCP\SocketHelper.cs" />
+    <Compile Include="TCP\SocketListener.cs" />
+    <Compile Include="TCP\MemoryManager.cs" />
+    <Compile Include="TCP\TMSKSocket.cs" />
+    <Compile Include="Logic\StoryBoardEx.cs" />
+    <Compile Include="Tools\AStarEx\ANode.cs" />
+    <Compile Include="Tools\AStarEx\AStar.cs" />
+    <Compile Include="Tools\AStarEx\BinaryStack.cs" />
+    <Compile Include="Tools\AStarEx\NodeGrid.cs" />
+    <Compile Include="Tools\AStar\IPathFinder.cs" />
+    <Compile Include="Tools\AStar\PathFinder.cs" />
+    <Compile Include="Tools\AStar\PathFinderFast.cs" />
+    <Compile Include="Tools\AStar\PathPoint.cs" />
+    <Compile Include="Tools\AStar\PriorityQueueB.cs" />
+    <Compile Include="Tools\CheckHelper.cs" />
+    <Compile Include="Tools\GoodsHelper.cs" />
+    <Compile Include="Logic\ServerMonitorManager.cs" />
+    <Compile Include="Tools\DataHelper.cs" />
+    <Compile Include="Tools\DBHelper.cs" />
+    <Compile Include="Tools\MUJson.cs" />
+    <Compile Include="Tools\Pattern\SingletonTemplate.cs" />
+    <Compile Include="Tools\ProtoUtil.cs" />
+    <Compile Include="Tools\SysConOut.cs" />
+    <Compile Include="Tools\TMSKThreadStaticClass.cs" />
+    <Compile Include="Tools\Win32API.cs" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Logic\ActivityNew\SevenDay\七日目标说明.docx" />
+    <None Include="Logic\ActivityNew\SevenDay\七日目标说明.xlsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tmsk.Contract\Tmsk.Contract.csproj">
+      <Project>{a9cb8bc5-f139-490f-9ce9-1e26edce4103}</Project>
+      <Name>Tmsk.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

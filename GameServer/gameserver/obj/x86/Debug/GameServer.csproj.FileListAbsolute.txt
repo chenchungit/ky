@@ -1,0 +1,16 @@
+E:\KY\GameServer\gameserver\bin\Debug\GameServer.exe.config
+E:\KY\GameServer\gameserver\bin\Debug\GameServer.exe
+E:\KY\GameServer\gameserver\bin\Debug\GameServer.pdb
+E:\KY\GameServer\gameserver\bin\Debug\Neo.Lua.dll
+E:\KY\GameServer\gameserver\bin\Debug\protobuf-net.dll
+E:\KY\GameServer\gameserver\bin\Debug\Tmsk.Contract.dll
+E:\KY\GameServer\gameserver\bin\Debug\zlib.net.dll
+E:\KY\GameServer\gameserver\bin\Debug\Tmsk.Contract.pdb
+E:\KY\GameServer\gameserver\obj\x86\Debug\GameServer.csprojAssemblyReference.cache
+E:\KY\GameServer\gameserver\obj\x86\Debug\GameServer.csproj.CoreCompileInputs.cache
+E:\KY\GameServer\gameserver\obj\x86\Debug\GameServer.csproj.CopyComplete
+E:\KY\GameServer\gameserver\obj\x86\Debug\GameServer.exe
+E:\KY\GameServer\gameserver\obj\x86\Debug\GameServer.pdb
+E:\KY\bin\Debug\GameServer.exe.config
+E:\KY\bin\Debug\GameServer.exe
+E:\KY\bin\Debug\GameServer.pdb

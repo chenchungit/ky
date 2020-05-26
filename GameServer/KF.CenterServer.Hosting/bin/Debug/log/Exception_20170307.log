@@ -1,0 +1,559 @@
+2017-03-07 00:00:03: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 00:36:56: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 00:36:57: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 00:37:02: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 00:37:02: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 00:37:02: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 01:00:03: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 01:25:12: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 01:25:13: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 01:25:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 01:25:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 01:25:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 12:34:06: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 12:34:08: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 12:34:16: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 12:34:16: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 12:34:16: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 13:00:02: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 14:00:15: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 15:00:06: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 16:00:18: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 16:23:43: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSqlInsertImg(String strSQL, List`1 imgList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 451
+   在 KF.Remoting.TianTiPersistence.WriteRoleInfoDataToDb(TianTiRoleInfoData data) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 464   在 KF.Remoting.TianTiPersistence.WriteRoleInfoDataProc() 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 486
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 207
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 17:00:10: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 18:00:01: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 18:22:15: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSqlInsertImg(String strSQL, List`1 imgList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 451
+   在 KF.Remoting.TianTiPersistence.WriteRoleInfoDataToDb(TianTiRoleInfoData data) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 464   在 KF.Remoting.TianTiPersistence.WriteRoleInfoDataProc() 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 486
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 207
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 19:00:13: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 20:21:17: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:21:17: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:21:17: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:21:17: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2017-03-07 20:21:17: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2017-03-07 20:21:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.HuanYingSiYuanService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanService.cs:行号 151
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:21:17: ##exception##
+ZhengBaConfig.LoadMatch failedSystem.IO.DirectoryNotFoundException: 未能找到路径“i:\mu2.1\client\mu2.1\Assets\UIResources\Config\GameRes\Config\Match.xml”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 KF.Contract.Data.ZhengBaConfig.LoadMatch(String matchFile) 位置 z:\server\GameServer\Tmsk.Contract\KuaFuData\ZhengBaConfig.cs:行号 116
+2017-03-07 20:21:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:21:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:21:17: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:21:17: ##exception##
+UpdateTianTiRankData -> zhengba reload execptionSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.ZhengBaManagerK.ReloadSyncData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\ZhengBaManagerK.cs:行号 418
+   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 423
+2017-03-07 20:21:19: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 20:22:09: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:22:09: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:22:09: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 z:\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:22:09: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2017-03-07 20:22:09: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2017-03-07 20:22:09: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.HuanYingSiYuanService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanService.cs:行号 151
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:09: ##exception##
+ZhengBaConfig.LoadMatch failedSystem.IO.DirectoryNotFoundException: 未能找到路径“i:\mu2.1\client\mu2.1\Assets\UIResources\Config\GameRes\Config\Match.xml”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 KF.Contract.Data.ZhengBaConfig.LoadMatch(String matchFile) 位置 z:\server\GameServer\Tmsk.Contract\KuaFuData\ZhengBaConfig.cs:行号 116
+2017-03-07 20:22:09: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:09: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:09: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:09: ##exception##
+UpdateTianTiRankData -> zhengba reload execptionSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.ZhengBaManagerK.ReloadSyncData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\ZhengBaManagerK.cs:行号 418
+   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 423
+2017-03-07 20:22:12: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2017-03-07 20:22:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'mu_kuafu.t_hysy_0' doesn't exist
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 493
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 z:\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+
+2017-03-07 20:22:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 196   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 251
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 254   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'rname' in 'field list'
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteReader(String strSQL, Boolean islog) 位置 z:\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 571
+   在 KF.Remoting.TianTiPersistence.ReloadTianTiRankDayList(List`1 tianTiRoleInfoDataList) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 149   在 KF.Remoting.TianTiPersistence.UpdateTianTiRankData(DateTime now, Boolean monthRank, Boolean force) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 337
+   在 KF.Remoting.TianTiPersistence.LoadTianTiRankData(DateTime now) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 296
+   在 KF.Remoting.TianTiService.ThreadProc(Object state) 位置 z:\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiService.cs:行号 166
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+2017-03-07 20:22:55: ##exception##
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:80
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 38   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 z:\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 z:\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+

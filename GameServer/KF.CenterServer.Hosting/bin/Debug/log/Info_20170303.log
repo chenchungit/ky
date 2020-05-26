@@ -1,0 +1,17 @@
+2017-03-03 01:37:46: 跨服中心服务器启动!
+2017-03-03 01:37:49: InitializeClient服务器连接1.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:Spread [Service首次连接过来]
+2017-03-03 01:37:49: InitializeClient服务器连接2.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:Ally [Service非首次连接过来]
+2017-03-03 01:37:49: InitializeClient服务器连接2.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:TianTi [Service非首次连接过来]
+2017-03-03 01:37:49: InitializeClient服务器连接2.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:YongZheZhanChang [Service非首次连接过来]
+2017-03-03 01:37:49: InitializeClient服务器连接2.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:HuanYingSiYuan [Service非首次连接过来]
+2017-03-03 01:37:50: InitializeClient服务器连接2.ServerId:1,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:KuaFuCopy [Service非首次连接过来]
+2017-03-03 01:37:55: InitializeClient服务器连接1.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:Spread [Service首次连接过来]
+2017-03-03 01:37:55: InitializeClient服务器连接2.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:Ally [Service非首次连接过来]
+2017-03-03 01:37:56: InitializeClient服务器连接2.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:KuaFuCopy [Service非首次连接过来]
+2017-03-03 01:37:56: InitializeClient服务器连接2.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:TianTi [Service非首次连接过来]
+2017-03-03 01:37:56: InitializeClient服务器连接2.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:YongZheZhanChang [Service非首次连接过来]
+2017-03-03 01:37:57: InitializeClient服务器连接2.ServerId:9001,ClientId:0,info:222.186.43.117_192.168.148.1_192.168.159.1,GameType:HuanYingSiYuan [Service非首次连接过来]
+2017-03-03 21:27:30: ExecCommand Set GameState to 2
+2017-03-03 21:27:31: 清除上场遗留的活动副本信息,开始统计报名玩家列表
+2017-03-03 21:27:31: 对玩家进行场次分组:SignUpRoleCount=0,StartGameRoleCount=0
+2017-03-03 21:27:32: 尝试为场次创建活动副本

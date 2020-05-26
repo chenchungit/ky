@@ -1,0 +1,1636 @@
+2019-09-06 09:40:47: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 09:40:52: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 09:40:57: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 09:41:02: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:13:57: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:13:57: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:13:57: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:13:57: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:14:05: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:14:07: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:14:07: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:14:07: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:28: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:29: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:31: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:35: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:35: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:35: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:22:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:22:59: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:23:00: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:23:00: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:23:00: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:26: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:27: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:28: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:33: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:33: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:33: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValue(XElement xml, String name, String attrName, String attrValue, String attribute, String defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 71   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 251
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetElementAttributeValueLong(XElement xml, String name, String attrName, String attrValue, String attribute, Int64 defVal) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 94   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 257
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:58: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Tmsk.Tools.Tools.ConfigHelper.GetXElements(XElement xml, String name) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\ConfigHelper.cs:行号 28   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 263
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:24:59: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:24:59: ##exception##
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 264
+2019-09-06 10:25:00: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:25:00: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:25:00: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:13: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:15: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:20: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:20: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:29:20: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:37:53: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:37:55: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:38:31: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:42:21: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:42:23: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:42:27: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:46:41: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:46:42: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:48:38: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:48:56: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:48:56: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 10:48:56: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:02:23: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:02:24: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:02:42: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:02:42: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:04:39: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:05:51: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:05:51: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:06:02: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:07:37: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:07:37: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:07:42: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:14:38: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:14:38: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:14:38: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:16:55: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:16:55: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:16:55: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:54: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 11:19:54: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 12:00:05: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 12:00:08: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 12:00:08: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 12:03:10: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 12:03:12: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:00:05: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:00:05: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:00:07: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:18:44: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:36:32: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:36:32: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:36:32: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:57:24: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:57:25: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 13:57:25: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 14:00:06: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 14:00:06: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 14:00:07: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:00:00: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:00:08: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:00:08: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:13: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:18: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:18: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:05:18: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:48: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:48: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:48: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:52: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:52: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:12:52: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:35:50: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:39: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:39: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:39: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:39: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:40: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:36:40: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:38:14: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\全民奇迹\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:58: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.HuanYingSiYuanPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\HuanYingSiYuan\HuanYingSiYuanPersistence.cs:行号 64   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 311
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:58: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.TianTiPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\TianTi\TianTiPersistence.cs:行号 95   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 312
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:58: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.YongZheZhanChangPersistence.InitConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 151   在 KF.Remoting.KuaFuServerManager.LoadConfig() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 313
+   在 KF.Remoting.KuaFuServerManager..cctor() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 133
+   在 KF.Remoting.KuaFuServerManager.CheckConfig()
+   在 KF.Hosting.HuanYingSiYuan.Program.Main(String[] args) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Hosting\Program.cs:行号 129
+   在 System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   在 System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   在 Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:58: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.GetSingle(String SQLString) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 479
+   在 KF.Remoting.KuaFuServerManager.AsyncFromDataBase() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 429   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 339
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:58: ##exception##
+MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: YES)
+   在 Maticsoft.DBUtility.DbHelperMySQL.ExecuteSql(String SQLString) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\DBUtility\DbHelperMySQL.cs:行号 120
+   在 KF.Remoting.KuaFuServerManager.UpdateServerLoad() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 415   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__2() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 362
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+
+2019-09-06 15:39:59: ##exception##
+System.Net.WebException: 远程服务器返回错误: (404) 未找到。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32& httpStatusCode, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 44   在 Tmsk.Tools.WebHelper.RequestByPost(String uri, Byte[] bytes, Int32 timeOut, Int32 readWriteTimeout) 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\Tmsk.Contract\Tools\WebHelper.cs:行号 19
+   在 KF.Remoting.KuaFuServerManager.UpdateDataFromServer() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 597
+   在 KF.Remoting.KuaFuServerManager.<StartServerConfigThread>b__1() 位置 d:\BaiduNetdiskDownload\qmqj\server\GameServer\KF.CenterServer.Remoting\KuaFuServerManager.cs:行号 340
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+

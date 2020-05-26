@@ -1,0 +1,6 @@
+2017-03-07 20:21:17: 配置文件目录结构不正确
+2017-03-07 20:21:17: 加载xml配置文件:Config/MU_City.xml, 失败。System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.YongZheZhanChangPersistence.InitLangHunLingYuConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 177
+2017-03-07 20:22:09: 配置文件目录结构不正确
+2017-03-07 20:22:09: 加载xml配置文件:Config/MU_City.xml, 失败。System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KF.Remoting.YongZheZhanChangPersistence.InitLangHunLingYuConfig() 位置 z:\server\GameServer\KF.CenterServer.Remoting\YongZheZhanChang\YongZheZhanChangPersistence.cs:行号 177

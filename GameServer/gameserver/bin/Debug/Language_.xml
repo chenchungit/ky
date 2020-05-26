@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Languages>
+  <Lang ChineseText="角斗场配置文件中，配置的固定物品奖励中的物品不存在, GoodsID={0}" OtherLangText="경기장 설정파일중 설정한 고정상품보상중에 물건이 존재하지 않습니다. GoodsID={0}" />
+  <Lang ChineseText="角色获取金钱, roleID={0}({1}), Money={2}, newMoney={3}" OtherLangText="캐릭터가 금전을 획득했습니다. roleID={0}({1}), Money={2}, newMoney={3}" />
+  <Lang ChineseText="为RoleID生成镖车对象时失败, Client={0}, RoleID={1}, YaBiaoID={2}" OtherLangText="RoleID를 위해 운송차 대상을 생성할때 실패했습니다. Client={0}, RoleID={1}, YaBiaoID={2}" />
+  <Lang ChineseText="镖车加血, BiaoCheID={0}({1}), Add={2}, Life={3}" OtherLangText="운송차 HP 증가, BiaoCheID={0}({1}), Add={2}, Life={3}" />
+  <Lang ChineseText="镖车减血, Injure={0}, Life={1}" OtherLangText="운송차 HP 감소, Injure={0}, Life={1}" />
+  <Lang ChineseText="镖车死亡, roleID={0}" OtherLangText="운송차 사망, roleID={0}" />
+  <Lang ChineseText="角色获取银两, roleID={0}({1}), Money={2}, newMoney={3}" OtherLangText="캐릭터가 은화를 획득했습니다. roleID={0}({1}), Money={2}, newMoney={3}" />
+  <Lang ChineseText="加载系统xml配置文件:{0}, 失败。没有找到相关XML配置文件!" OtherLangText="로딩 시스템 xml설정파일:{0}, 실패. 관련 XML설정파일을 찾을수가 없습니다!" />
+  <Lang ChineseText="解析广播配置表中的时间项失败, ID={0}" OtherLangText="광고 환경설정 분석목록중에서 시간항목이 실패했습니다. ID={0}" />
+  <Lang ChineseText="解析广播配置表中的时间项为数组时失败, ID={0}" OtherLangText="광고 환경설정 분석목록중에서 시간항목 수치가 실패했습니다. ID={0}" />
+  <Lang ChineseText="向用户发送tcp数据失败: ID={0}, Size={1}, RoleID={2}, RoleName={3}" OtherLangText="고객한테 발송한 tcp데이터가 실패했습니다.: ID={0}, Size={1}, RoleID={2}, RoleName={3}" />
+  <Lang ChineseText="九宫格: 发送删除怪物给客户端: {0}, {1}" OtherLangText="구궁격: 몬스터 삭제를 클라이언트로 발송: {0}, {1}" />
+  <Lang ChineseText="角色强制死亡, roleID={0}({1}), Life={2}" OtherLangText="캐릭터가 강제로 사망했습니다. roleID={0}({1}), Life={2}" />
+  <Lang ChineseText="角色加血, roleID={0}({1}), Add={2}, Life={3}" OtherLangText="키릭터 HP 증가, roleID={0}({1}), Add={2}, Life={3}" />
+  <Lang ChineseText="角色减血, roleID={0}({1}), Sub={2}, Life={3}" OtherLangText="캐릭터 HP 감소, roleID={0}({1}), Sub={2}, Life={3}" />
+  <Lang ChineseText="角色加魔, roleID={0}({1}), Add={2}, Magic={3}" OtherLangText="캐릭터 MP 증가, roleID={0}({1}), Add={2}, Magic={3}" />
+  <Lang ChineseText="角色减魔, roleID={0}({1}), Sub={2}, Magic={3}" OtherLangText="캐릭터 MP 감소, roleID={0}({1}), Sub={2}, Magic={3}" />
+  <Lang ChineseText="临时体验的【{0}】形象，超过最长体验时间，被系统收回" OtherLangText="임시로 체험할 수 있는 【{0}】형상. 체험시간 최대치가 초과되여 시스템에의해 회수 되었습니다." />
+  <Lang ChineseText="您的好友列表已经满, 最多不能超过{0}个" OtherLangText="당신의 친구목록은 이미 차있습니다. 최대한도 {0}명을 초과해서는 안됩니다." />
+  <Lang ChineseText="您的黑名单列表已经满, 最多不能超过{0}个" OtherLangText="당신의 블랙명단 목록은 이미 차있습니다. 최대한도 {0}명을 초과해서는 안됩니다." />
+  <Lang ChineseText="您的仇人列表已经满, 最多不能超过{0}个" OtherLangText="당신의 원수목록은 이미 차있습니다. 최대한도 {0}명을 초과해서는 안됩니다.个" />
+  <Lang ChineseText="好友" OtherLangText="친구" />
+  <Lang ChineseText="黑名单" OtherLangText="블랙명단" />
+  <Lang ChineseText="仇人" OtherLangText="원수" />
+  <Lang ChineseText="【{0}】将您加入了{1}列表" OtherLangText="【{0}】님은 당신을 {1}목록에 추가했습니다." />
+  <Lang ChineseText="处理转发消息时，连接DBServer获取消息列表失败" OtherLangText="메시지를 전달할때 DBServer를 연결하여 획득한 메시지 목록이 실패했습니다." />
+  <Lang ChineseText="角色减血, roleID={0}({1}), Injure={2}, Life={3}" OtherLangText="캐릭터 HP 감소. roleID={0}({1}), Injure={2}, Life={3}" />
+  <Lang ChineseText="被角色{0}({1})杀死" OtherLangText="{0}({1})캐릭터에 의해 살해되었습니다." />
+  <Lang ChineseText="被怪物{0}({1})杀死" OtherLangText="{0}({1})몬스터에 의해 살해되었습니다." />
+  <Lang ChineseText="精灵移动超出了地图边界: Cmd={0}, RoleID={1}, 关闭连接" OtherLangText="요괴의 이동이 지도범위를 벗어났습니다.: Cmd={0}, RoleID={1}, 연결닫기" />
+  <Lang ChineseText="物品使用" OtherLangText="상품사용" />
+  <Lang ChineseText="角色添加金钱, roleID={0}({1}), Money={2}, addMoney={3}" OtherLangText="캐릭터가 금전을 추가함, roleID={0}({1}), Money={2}, addMoney={3}" />
+  <Lang ChineseText="角色扣除金钱, roleID={0}({1}), Money={2}, subMoney={3}" OtherLangText="캐릭터가 금전을 덜어냄, roleID={0}({1}), Money={2}, subMoney={3}" />
+  <Lang ChineseText="物品转给别人" OtherLangText="상품을 다른사람한테 넘겨주다." />
+  <Lang ChineseText="得到他人物品" OtherLangText="타인의 상품을 획득함" />
+  <Lang ChineseText="您累计在线时间已满3小时，请您下线休息，做适当身体活动" OtherLangText="누적 온라인 접속시간이 3시간을 초과했습니다. 휴식을 취하거나 적합한 운동을 하시기 바랍니다." />
+  <Lang ChineseText="您已经进入不健康游戏时间，您的游戏收益将降为正常值的50%" OtherLangText="당신은 이미 건강에 해로운 게임시간에 진입했습니다. 때문에 당신의 게임수익은 정상수익의 50%로 감소됩니다." />
+  <Lang ChineseText="您已经进入不健康游戏时间，您的游戏收益将降为正常值的50%, 请完善身份信息，并重新登录" OtherLangText="당신은 이미 건강에 해로운 게임시간에 진입했습니다. 때문에 당신의 게임수익은 정상수익의 50%로 감소됩니다. 신분정보를 완벽하게하고 다시 로그인 해주세요. " />
+  <Lang ChineseText="您累计在线时间已满5小时，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害。" OtherLangText="당신이 누적한 온라인 접속시간은 이미 5시간을 초과했습니다. 당신의 건강을 생각해서 즉시 게임을 종료하고 휴식을 취하세요. 만약 계속 접속하실 경우엔 당신의 신체건강에 영향을 줄것입니다." />
+  <Lang ChineseText="您已进入不健康游戏时间，为了您的健康，请您立即下线休息。如不下线，您的身体将受到损害，您的收益已降为零，直到您的累计下线时间满5小时后，才能恢复正常" OtherLangText="당신은 이미 건강에 해로운 게임시간에 진입했습니다. 당신의 건강을 위해서 즉시 게임을 종료하고 휴식을 취하세요. 만약 계속 접속하실 경우엔 당신의 신체건강에 영향을 줄것이며  당신의 수익도 0으로 되며 당신의 로그아웃시간이 5시간 되어야 정상적으로 회복이 됩니다." />
+  <Lang ChineseText="您已经进入不健康游戏时间，您的收益已降为零, 请完善身份信息，并重新登录" OtherLangText="당신은 이미 건강에 해로운 게임시간에 진입했습니다. 당신의 수익은 0으로 되었으며 신분정보를 완벅하게하고 다시 로그인 해주세요." />
+  <Lang ChineseText="角色获取经验和级别, roleID={0}({1}), Level={2}, Experience={3}, newExperience={4}" OtherLangText="캐릭터가 경험과 레벨을 획득했습니다., roleID={0}({1}), Level={2}, Experience={3}, newExperience={4}" />
+  <Lang ChineseText="『{0}』加入了『{1}』势力" OtherLangText="『{0}』님은 『{1}』세력에 가입했습니다." />
+  <Lang ChineseText="『{0}』{1}『{2}』势力" OtherLangText="『{0}』{1}『{2}』세력" />
+  <Lang ChineseText="被开除出了" OtherLangText="해고 되었습니다." />
+  <Lang ChineseText="脱离了" OtherLangText="이탈 하였습니다." />
+  <Lang ChineseText="『{0}』拒绝了你加入『{1}』势力的申请" OtherLangText="『{0}』님은 당신이 『{1}』세력 가입신청을 거절했습니다." />
+  <Lang ChineseText="『{0}』拒绝了你加入『{1}』势力的邀请" OtherLangText="『{0}』님은 당신이 『{1}』세력 가입초청을 거절했습니다." />
+  <Lang ChineseText="自动战斗进入了【战斗保护】状态" OtherLangText="자동전투가 【전투보호】상태로 진입했습니다." />
+  <Lang ChineseText="你在『{0}』地图中停留的时间超过了限制，被系统自动传回主城" OtherLangText="당신이 『{0}』지도에서 체류한 시간이 최대치를 초과하여 시스템에서 자동으로 본성으로 돌려보냈습니다." />
+  <Lang ChineseText="向DBServer请求执行命令失败, CMD={0}" OtherLangText="DBServer를 향해 요청한 집행임무가 실패했습니다. CMD={0}" />
+  <Lang ChineseText="添加到DBCommandPool 的item不能是空(null)" OtherLangText="DBCommandPool 에 추가한 item이 비어있어서는 안됩니다.(null)" />
+  <Lang ChineseText="RoleID={0}, RoleName={1} 延迟后强制关闭操作" OtherLangText="RoleID={0}, RoleName={1} 지연후 강제로 조작을 닫기." />
+  <Lang ChineseText="延迟后强制关闭操作, 无角色的Socket连接" OtherLangText="지연후 강제로 조작을 닫기. 캐릭터의  Socket연결이 없습니다." />
+  <Lang ChineseText="宝石解镶嵌" OtherLangText="보석상감 솔루션" />
+  <Lang ChineseText="解析物品属性失败: EquipID={0}" OtherLangText="상품속성 분석 실패: EquipID={0}" />
+  <Lang ChineseText="转换物品属性数组: EquipID={0}" OtherLangText="상품속성 수치 전환: EquipID={0}" />
+  <Lang ChineseText="装备进阶" OtherLangText="장비진급" />
+  <Lang ChineseText="解析FuBenMap.xml文件中的奖励项时失败, 物品配置项个数错误" OtherLangText="FuBenMap.xml문서중의 보상항목 해석 실패. 상품설정항목 개수가 잘못되었습니다." />
+  <Lang ChineseText="解析副本地图映射配置项中的物品奖励失败, FuBenID={0}, MapCode={1}" OtherLangText="던전 맵핑설정 항목중의 상품보상 해석 실패. FuBenID={0}, MapCode={1}" />
+  <Lang ChineseText="您当前的副本顺序ID错误" OtherLangText="당신의 현재 던전순서 ID가 잘못되었습니다." />
+  <Lang ChineseText="当前副本地图的奖励只能领取一次" OtherLangText="현재 던전지도의 보상받기는 1회만 가능합니다." />
+  <Lang ChineseText="没有找到当前地图对应的副本配置" OtherLangText="현재 지도와 관련되는 던전설정은 찾을수가 없습니다." />
+  <Lang ChineseText="没有找到当前副本地图的奖励" OtherLangText="" />
+  <Lang ChineseText="包裹中空格不足，请清理出足够的空格后，再获取副本地图的奖励" OtherLangText="가방에 공간이 부족합니다. 정리정돈하고 빈공간을 만든후 던전지도의 보상을 받아가세요." />
+  <Lang ChineseText="副本奖励物品" OtherLangText="던전보상 상품" />
+  <Lang ChineseText="{0}＝{1}" OtherLangText="" />
+  <Lang ChineseText="启动时加载xml文件: {0} 失败" OtherLangText="작동할때 로딩xml파일: {0} 실패" />
+  <Lang ChineseText="读取: {0} 失败, xml节点名: {1}" OtherLangText="읽기: {0} 실패, xml노드이름: {1}" />
+  <Lang ChineseText="读取: {0}/{1}={2} 失败, xml节点名: {3}" OtherLangText="읽기: {0}/{1}={2} 실패, xml노드이름: {3}" />
+  <Lang ChineseText="读取属性: {0} 失败, xml节点名: {1}" OtherLangText="속성읽기: {0} 실패, xml노드이름: {1}" />
+  <Lang ChineseText="读取属性: {0}/{1} 失败, xml节点名: {2}" OtherLangText="속성읽기: {0}/{1} 실패, xml노드이름: {2}" />
+  <Lang ChineseText="弑天" OtherLangText="시천" />
+  <Lang ChineseText="玄法" OtherLangText="현법" />
+  <Lang ChineseText="逍遥" OtherLangText="소요" />
+  <Lang ChineseText="镶嵌修改" OtherLangText="상감수정" />
+  <Lang ChineseText="重置包裹索引" OtherLangText="가방 인덱스 재설정" />
+  <Lang ChineseText="删除无效的任务, Client={0}({1}), TaskID={2}" OtherLangText="잘못된 임무 삭제, Client={0}({1}), TaskID={2}" />
+  <Lang ChineseText="初窥门径" OtherLangText="초규문경" />
+  <Lang ChineseText="略有所成" OtherLangText="약유소성" />
+  <Lang ChineseText="脱颖而出" OtherLangText="탈영이출" />
+  <Lang ChineseText="渐入佳境" OtherLangText="점입가경" />
+  <Lang ChineseText="登峰造极" OtherLangText="등봉조겁" />
+  <Lang ChineseText="出神入化" OtherLangText="출신입화" />
+  <Lang ChineseText="返璞归真" OtherLangText="반박귀진" />
+  <Lang ChineseText="天人合一" OtherLangText="천인합일" />
+  <Lang ChineseText="socket为null, 无法打印错误信息" OtherLangText="socket은 null입니다. 잘못된 정보는 프린터 할 수 없습니다." />
+  <Lang ChineseText="白色" OtherLangText="흰색" />
+  <Lang ChineseText="绿色" OtherLangText="녹색" />
+  <Lang ChineseText="蓝色" OtherLangText="남색" />
+  <Lang ChineseText="紫色" OtherLangText="자색" />
+  <Lang ChineseText="金色" OtherLangText="금색" />
+  <Lang ChineseText="成功" OtherLangText="성공" />
+  <Lang ChineseText="转移物品时失败, 个人交易, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" OtherLangText="상품 이동할때 실패. 개인거래, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" />
+  <Lang ChineseText="失败" OtherLangText="실패" />
+  <Lang ChineseText="转移物品时失败, 摊位购买, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" OtherLangText="상품 이동할때 실패. 매장에서 구입, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" />
+  <Lang ChineseText="未知的坐骑名称" OtherLangText="알수없는 탑승도구의 명칭입니다." />
+  <Lang ChineseText="随身仓库最大格子数为{0}, 你的最大格子数已满" OtherLangText="휴대창고 최대치는 {0}입니다. 당신의 휴대창고에는 자리가 없습니다." />
+  <Lang ChineseText="随身仓库最大格子数为{0}, 请使用【5格仓库栏】来扩充" OtherLangText="휴대창고 최대치는 {0}입니다.  【5칸 창고확장】을 사용하여 확장하세요." />
+  <Lang ChineseText="随身仓库最大格子数为{0}, 请使用【1格仓库栏】来扩充" OtherLangText="휴대창고 최대치는 {0}입니다. 【1칸 창고확장】을 사용하여 확장하세요." />
+  <Lang ChineseText="九宫格: 怪物通知客户端加载: {0}, {1}" OtherLangText="구궁격: 몬스터알림 클라이언트 로딩: {0}, {1}" />
+  <Lang ChineseText="九宫格: 怪物通知客户端离开: {0}, {1}" OtherLangText="구궁격: 몬스터 알림 클라이언트 나가기" />
+  <Lang ChineseText="九宫格: 发送加载怪物给客户端: {0}, {1}" OtherLangText="구궁격:몬스터가 클라이언트에 발송 로딩: {0}, {1}" />
+  <Lang ChineseText="请将场景中的怪物全部消灭后，才能进入下一层副本地图" OtherLangText="현재의 몬스터를 전부 소멸해야 다음 던전지도로 진입할 수 있습니다." />
+  <Lang ChineseText="这是最后一层副本地图，无法进入下一层副本地图了" OtherLangText="이것은 마지막 던전지도 입니다. 다음 던전지도로 진입할 수 없습니다." />
+  <Lang ChineseText="请将场景中的怪物全部消灭后，才能领取奖励" OtherLangText="몬스터를 전부 소멸해야 보상을 받을수 있습니다." />
+  <Lang ChineseText="【" OtherLangText="" />
+  <Lang ChineseText="『" OtherLangText="" />
+  <Lang ChineseText="】" OtherLangText="" />
+  <Lang ChineseText="』" OtherLangText="" />
+  <Lang ChineseText="切换地图时创建副本对象失败, RoleID={0}, MapCode={1}" OtherLangText="지도로 전환할때 만든 던전대상이 실패했습니다. RoleID={0}, MapCode={1}" />
+  <Lang ChineseText="阳维脉" OtherLangText="양유맥" />
+  <Lang ChineseText="阴维脉" OtherLangText="음유맥" />
+  <Lang ChineseText="阳跷脉" OtherLangText="양교맥" />
+  <Lang ChineseText="阴跷脉" OtherLangText="음교맥" />
+  <Lang ChineseText="带脉" OtherLangText="대맥" />
+  <Lang ChineseText="冲脉" OtherLangText="충맥" />
+  <Lang ChineseText="任脉" OtherLangText="임맥" />
+  <Lang ChineseText="督脉" OtherLangText="독맥" />
+  <Lang ChineseText="醒我" OtherLangText="성아" />
+  <Lang ChineseText="蜕凡" OtherLangText="세범" />
+  <Lang ChineseText="识藏" OtherLangText="지장" />
+  <Lang ChineseText="御空" OtherLangText="어공" />
+  <Lang ChineseText="涅盘" OtherLangText="열반" />
+  <Lang ChineseText="长生" OtherLangText="장생" />
+  <Lang ChineseText="蕴神" OtherLangText="온신" />
+  <Lang ChineseText="入神" OtherLangText="입신" />
+  <Lang ChineseText="归神" OtherLangText="귀신" />
+  <Lang ChineseText="加成次数" OtherLangText="가성횟수" />
+  <Lang ChineseText="累计经验" OtherLangText="경험쌓기" />
+  <Lang ChineseText="物攻" OtherLangText="물리공격" />
+  <Lang ChineseText="物防" OtherLangText="물리방어" />
+  <Lang ChineseText="魔攻" OtherLangText="마법공격" />
+  <Lang ChineseText="魔防" OtherLangText="마법방어" />
+  <Lang ChineseText="暴击" OtherLangText="폭격" />
+  <Lang ChineseText="命中" OtherLangText="명중" />
+  <Lang ChineseText="闪避" OtherLangText="회피" />
+  <Lang ChineseText="生命上限" OtherLangText="생명" />
+  <Lang ChineseText="魔法上限" OtherLangText="마력" />
+  <Lang ChineseText="与DBServer 通讯时返回错误 CMD_DB_ERR_RETURN" OtherLangText="与DBServer 와 통신할때 버그반환 CMD_DB_ERR_RETURN" />
+  <Lang ChineseText="与DBServer通讯失败, CMD={0}" OtherLangText="DBServer와의 통신실패, CMD={0}" />
+  <Lang ChineseText="新手上给予的物品ID不存在: GoodsID={0}" OtherLangText="초보자에게 증정한 상품 ID가 존재하지 않습니다: GoodsID={0}" />
+  <Lang ChineseText="自动给予新手物品" OtherLangText="자동으로 초보자 상품을 증정하다." />
+  <Lang ChineseText="解开包裹" OtherLangText="가방열기" />
+  <Lang ChineseText="RoleID={0}, RoleName={1} 强制执行关闭" OtherLangText="RoleID={0}, RoleName={1} 강제로 닫기를 집행" />
+  <Lang ChineseText="IP={0}, 强制执行关闭Socket" OtherLangText="IP={0}, 강제로 Socket 닫기를 집행" />
+  <Lang ChineseText="RoleID={0}, RoleName={1} 已经无心跳" OtherLangText="RoleID={0}, RoleName={1} 이미 심장박동이 없습니다." />
+  <Lang ChineseText="百连" OtherLangText="백련" />
+  <Lang ChineseText="如麻" OtherLangText="여마" />
+  <Lang ChineseText="主宰" OtherLangText="주재" />
+  <Lang ChineseText="暴走" OtherLangText="폭주" />
+  <Lang ChineseText="无敌" OtherLangText="무적" />
+  <Lang ChineseText="妖孽" OtherLangText="요괴" />
+  <Lang ChineseText="至尊" OtherLangText="지존" />
+  <Lang ChineseText="魔尊" OtherLangText="마존" />
+  <Lang ChineseText="魔神" OtherLangText="마신" />
+  <Lang ChineseText="　" OtherLangText="" />
+  <Lang ChineseText="很不幸,[{0}]{1}【{2}】在『{3}』惨被{4}【{5}】杀害,【{2}】定会一雪前耻" OtherLangText="불행하게도 [{0}]{1}【{2}】은 『{3}』에서  {4}【{5}】에게 비참하게 살해되었습니다.【{2}】은 틀림없이 부끄러워 할것입니다." />
+  <Lang ChineseText="『{0}』势力的" OtherLangText="『{0}』세력의" />
+  <Lang ChineseText="很不幸，本势力成员【{0}】在[{1}]『{2}』惨被【{3}】杀害，请火速前往支援" OtherLangText="불행하게도 본세력의 【{0}】은 [{1}]『{2}』에서 【{3}】에게 비참하게 살해되었습니다. 빠른지원을 해주세요." />
+  <Lang ChineseText="恭喜[{0}]【{1}】在『{2}』成功击杀了『{3}』" OtherLangText="축하합니다. [{0}]【{1}】은 『{2}』에서 성공적으로 『{3}』을 살해했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】在『{2}』成功将『{3}』击杀，获得了丰厚的奖励" OtherLangText="축하합니다. [{0}]【{1}】은 『{2}』에서 성공적으로 『{3}』을 살해하고 많은 보상을 획득하였습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功的升到了『{2}』级" OtherLangText="축하합니다. [{0}]【{1}】성공적으로 『{2}』레벨로 승급했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】将『奇经八脉•{2}』『{3}』成功贯通，获得了大量的经验和属性加成" OtherLangText="축하합니다. [{0}]【{1}】은 『기경팔맥•{2}』『{3}』을 성공적으로 관통했습니다. 대량의 경험과 속성을 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功突破『奇经八脉•{2}』，获得了大量的经验和属性加成" OtherLangText="축하합니다. [{0}]【{1}】은 성공적으로 『기경팔맥•{2}』를 돌파하고 대량의 경험과 속성을 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】将『{2}』的品质提升到了{3}，实力得到了大的提升" OtherLangText="축하합니다. [{0}]【{1}】은 『{2}』의 품질을 {3}레벨로 승급시켰습니다. 실력이 크게 상승되었습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功的将『{2}』锻造至『+{3}』，实力得到了大的提升" OtherLangText="축하합니다. [{0}]【{1}】은 성공적으로 『{2}』을 『+{3}』으로 제련했습니다. 실력이 크게 상승되었습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】将({2}＋{3})的『{4}』进阶到了({5}＋{6})的『{7}』" OtherLangText="축하합니다. [{0}]【{1}】은 ({2}＋{3})의 『{4}』진급이 ({5}＋{6})의 『{7}』에 도달했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功的将坐骑从『{2}』进阶到了『{3}』，坐骑属性大幅提升" OtherLangText="축하합니다. [{0}]【{1}】성공적으로 탑승도구를 『{2}』진급, 『{3}』에 도달했습니다. 탑승도구 속성이 대폭 늘어났습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】将坐骑『{2}』的属性完全强化成功，令人羡慕" OtherLangText="축하합니다. [{0}]【{1}】은 탑승도구『{2}』의 속성을 강화하는데 성공했습니다. 많은 사람들이 부러워합니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功合成了『{2}』，令人羡慕" OtherLangText="축하합니다. [{0}]【{1}】은 성공적으로 『{2}』를 합성했습니다. 많은 사람들이 부러워합니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】花费[{2}分钟{3}秒]成功通关了『{4}』，令人敬佩" OtherLangText="축하합니다. [{0}]【{1}】는 [{2}분{3}초]를 소모해서 성공적으로 『{4}』를 통과하였습니다. 많은 사람들이 부러워합니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功通关『{2}』后领取了{3}经验" OtherLangText="축하합니다. [{0}]【{1}】는 성공적으로 『{2}』을 통과후 {3}경험을 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】的武功境界达到了『{2}』，技能加成效果更上一层楼" OtherLangText="축하합니다. [{0}]【{1}】의 무공경지가 『{2}』에 도달했습니다. 스킬가성 효과는 한층 더 증가됩니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】在『{2}』的连斩进度达到了『{3}』，击杀BOSS和精英可造成『{4}』倍伤害" OtherLangText="축하합니다. [{0}]【{1}】은 『{2}』의 연참 횟수가  『{3}』에 도달했습니다. BOSS와 정예를 공격시 『{4}』배의 피해를 입힙니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】在牢房中衷心悔过，消减PK点到『4800』后成功出狱" OtherLangText="축하합니다. [{0}]【{1}】는 감옥에서 진심으로 잘못을 뉘우치고 PK포인트가『4800』으로 감소된후 성공적으로 석방했습니다." />
+  <Lang ChineseText="[{0}]【{1}】因杀人过多，被关入了牢房，预计『{2}分钟』后出狱" OtherLangText="[{0}]【{1}】은 살인을 많이 했기때문에 감옥에 갇히게 되었습니다. 대략 『{2}분』뒤에 석방할 수 있습니다." />
+  <Lang ChineseText="[{0}]【{1}】将【{2}】的『{3}』劫杀，劫镖成功，获得了大量的银两和经验奖励" OtherLangText="[{0}]【{1}】는【{2}】의『{3}』를 약탈, 살해하고 운송차량을 빼앗는데 성공해서 대량의 은화와 경험보상을 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】长途跋涉完成运镖，获得丰厚的银两和经验奖励" OtherLangText="축하합니다. [{0}]【{1}】먼 길을 고생스럽게 걸어 운송임무를 완성하고 은화와 경험보상을 획득했습니다." />
+  <Lang ChineseText="【BOSS】" OtherLangText="" />
+  <Lang ChineseText="『BOSS』" OtherLangText="" />
+  <Lang ChineseText="恭喜[{0}]【{1}】在『{2}』地图中击杀『{3}』获得了『{4}级』『{5}』『{6}』『+{7}』" OtherLangText="축하합니다. [{0}]【{1}】는『{2}』지도중 『{3}』를 살해하고 『{4}레벨』『{5}』『{6}』『+{7}』획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】在『{2}』地图中击杀『{3}』获得了『{4}』" OtherLangText="축하합니다. [{0}]【{1}】는 『{2}』지도중 『{3}』를 살해하고 『{4}』를 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功通关『五行奇阵』后领取了{2}经验" OtherLangText="축하합니다. [{0}]【{1}】는 성공적으로 『오행기진』을 통과하고 {2}경험 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】完胜『英雄逐擂』副本第『{2}』擂擂主『{3}』, 获得了『{4}』至上荣誉" OtherLangText="축하합니다. [{0}]【{1}】는 『영웅축뢰』던전의 제『{2}』뢰뢰주『{3}』에서 완승하고  『{4}』지상영예를 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】完胜『英雄逐擂』副本第『{2}』擂擂主『{3}』, 令人佩服" OtherLangText="축하합니다. [{0}]【{1}】는 『영웅축뢰』던전의 제『{2}』뢰뢰주『{3}』에서 완승했습니다. 많은사람들이 부러워 합니다." />
+  <Lang ChineseText="恭喜『{0}』势力成功在[{1}]『{2}』插满5面军旗，成功占有了『{2}』领地，势力雄霸一方，大有作为" OtherLangText="축하합니다. 『{0}』세력은 성공적으로 [{1}]『{2}』에 5개의 군기를 꽂아 성공적으로 『{2}』영지를 점유하여 세력이 웅패일방 되는데 많은 도움이 되었습니다." />
+  <Lang ChineseText="恭喜[{0}]『{1}』势力成功在皇城争夺战中取得胜利，首领【{2}】成为了万人敬仰的本服皇帝" OtherLangText="축하합니다. [{0}]『{1}』세력은 성공적으로 황성쟁탈전에서 승리를 했습니다. 해당 세력의 두목【{2}】는 본섭에서 만민의 존경을 받는 황제로 되었습니다. " />
+  <Lang ChineseText="[{0}]很遗憾，没有任何势力在皇城争夺战中取得胜利，请所有势力一起努力，争取下次皇城战的胜利" OtherLangText="[{0}]죄송합니다. 황성쟁탈전에서 승리한 세력은 없습니다. 모든 세력들이 함께 노력해서 황성전의 승리를 쟁취하세요." />
+  <Lang ChineseText="恭喜[{0}]【{1}】成功被本服皇帝【{2}】册封为皇妃，令万千人羡慕。" OtherLangText="축하합니다.[{0}]【{1}】은 성공적으로 본 서버의  {2}】황제로 부터 황후로 책봉되었으며 많은 사람들의 부러움을 받았습니다." />
+  <Lang ChineseText="本服皇帝[{0}]【{1}】龙颜大怒，皇妃【{2}】惨被废黜，令人心痛" OtherLangText="본 서버의 [{0}]【{1}】황제께서는 매우크게 노하셨다. 그리하여【{2}】황후께서는 비참하게 폐위되었고  그로인해 사람들은 맘이  아파했다." />
+  <Lang ChineseText="本服皇帝[{0}]【{1}】龙颜大怒，【{2}】惨被打入牢房，预计『5分钟』后出狱" OtherLangText="본 서버의 [{0}]【{1}】황제께서는 매우크게 노하셨다. 그리하여【{2}】는 비참하게 감옥에 갇히게 되었으며 대략『5분』뒤에 석방될 것이다." />
+  <Lang ChineseText="本服皇帝[{0}]【{1}】龙颜大悦，特赦【{2}】，将其放出牢房" OtherLangText="본 서버의 [{0}]【{1}】황제께서 매우크게 기뻐하시며【{2}】를 특별사면 하여 그를 감옥에서 석방하였다." />
+  <Lang ChineseText="本服皇帝[{0}]【{1}】龙颜大怒，【{2}】惨被禁言，1小时内不得在世界频道喊话" OtherLangText="본 서버의 [{0}]【{1}】황제께서는 매우크게 노하셨다. 그리하여 【{2}】는 비참하게 언어금지가 되였으며 1시간동안 세계채널에서 외치기를 할 수 없다." />
+  <Lang ChineseText="万人朝拜，本服皇帝[{0}]【{1}】上线，吾皇万岁万岁万万岁!" OtherLangText="만인의 경배를 한몸에 받고있는 본 서버의 [{0}]【{1}】황제께서 온라인 하였습니다. 오황 만세 만세 만만세!" />
+  <Lang ChineseText="恭喜[{0}]『{1}』势力成功将其势力的军旗升到『{2}级』，势力军旗属性加成得到了大的提升" OtherLangText="축하합니다. [{0}]『{1}』세력은 성공적으로 본 세력의 장군기를 『{2}급』까지 상승했습니다. 세력군기 속성가성은 대폭상승되었습니다." />
+  <Lang ChineseText="本服皇帝[{0}]【{1}】设置扬州城铜钱商店的税率为『{2}%』，请大家购买时留意" OtherLangText="본 서버의 [{0}]【{1}】황제께서 양주성 동전상점의 세율을 『{2}%』로 설정했습니다. 여러분 구입시에 주의해 주십시오." />
+  <Lang ChineseText="恭喜[{0}]【{1}】使用【杨公秘典】打开杨公宝库后，获得了『{2}级』『{3}』『{4}』『+{5}』" OtherLangText="축하합니다. [{0}]【{1}】은 【양공비전】을 사용하여 양공보물창고를 열고 『{2}급』『{3}』『{4}』『+{5}』을 획득했습니다." />
+  <Lang ChineseText="恭喜[{0}]【{1}】使用【杨公秘典】打开杨公宝库后，获得了『{2}』" OtherLangText="축하합니다. [{0}]【{1}】은 【양공비전】을 사용해서 양공보물창고를 열고 『{2}』를 획득했습니다." />
+  <Lang ChineseText="零线" OtherLangText="0라인" />
+  <Lang ChineseText="一线" OtherLangText="1라인" />
+  <Lang ChineseText="二线" OtherLangText="2라인" />
+  <Lang ChineseText="三线" OtherLangText="3라인" />
+  <Lang ChineseText="四线" OtherLangText="4라인" />
+  <Lang ChineseText="五线" OtherLangText="5라인" />
+  <Lang ChineseText="六线" OtherLangText="6라인" />
+  <Lang ChineseText="七线" OtherLangText="7라인" />
+  <Lang ChineseText="八线" OtherLangText="8라인" />
+  <Lang ChineseText="九线" OtherLangText="9라인" />
+  <Lang ChineseText="十线" OtherLangText="10라인" />
+  <Lang ChineseText="进入灵兽峰时错误, 没有找到副本配置" OtherLangText="령수봉에 진입시 오류가 발생되어 던전설정을 찾을 수 없습니다." />
+  <Lang ChineseText="进入灵兽峰时错误, 从DBServer获取副本序号失败" OtherLangText="령수봉에 진입시 오류가 발생되어 DBServer에서 던전일련번호 획득을 실패했습니다." />
+  <Lang ChineseText="进入灵兽峰时错误, 地图编号无效" OtherLangText="령수봉 진입시 오류가 발생되어 지도번호가 무효로 되었습니다." />
+  <Lang ChineseText="驮镖毛驴" OtherLangText="짐을실은 당나귀" />
+  <Lang ChineseText="驮镖白马" OtherLangText="짐을실은 백마" />
+  <Lang ChineseText="驮镖骆驼" OtherLangText="짐을실은 낙타" />
+  <Lang ChineseText="[{0}区]{1}" OtherLangText="[{0}지역]{1}" />
+  <Lang ChineseText="只有从『{0}』线才能安插军旗" OtherLangText="오직 『{0}』라인부터 군기를 꽂을 수 있습니다." />
+  <Lang ChineseText="只有领地战期间才能安插军旗!" OtherLangText="오직 영지전 기간에 군기를 꽂을 수 있습니다." />
+  <Lang ChineseText="『{0}』地图上的领地战已经结束" OtherLangText="『{0}』지도위의 영지전은 이미 종료되었습니다." />
+  <Lang ChineseText="只有势力成员才能安插军旗!" OtherLangText="세력의 회원만이 군기를 꽂을 수 있습니다." />
+  <Lang ChineseText="非砍倒军旗的势力，在原有军旗被砍倒10秒后，才能安插军旗！" OtherLangText="군기의 세력을 쓰러뜨리지 못했으며 원래의 군기가 쓰러뜨린 10초후에 군기를 꽂을 수 있습니다." />
+  <Lang ChineseText="只有将已经安插的其他势力的军旗砍倒后，才能安插自己势力的军旗！" OtherLangText="오직 이미 꽃혀져잇는 기타 세력의 군기를 쓰러뜨려야 자신의 세력군기를 꽂을 수 있습니다." />
+  <Lang ChineseText="势力库存铜钱不足，无法安插军旗！" OtherLangText="세력창고에 저장된 동전이 부족합니다. 군기를 꽂을 수 없습니다." />
+  <Lang ChineseText="本势力成员【{0}】成功在[{1}]『{2}』安插了本势力军旗，可喜可贺" OtherLangText="본 세력의 회원 【{0}】님은 성공적으로 [{1}]『{2}』에 본 세력의 군기를 꽂았습니다. 축하합니다." />
+  <Lang ChineseText="只有势力首领才能提取舍利之源!" OtherLangText="오직 세력의 수령만이 사리지원을 제취할 수 있습니다.!" />
+  <Lang ChineseText="只有从『{0}』线才能提取舍利之源" OtherLangText="오직 『{0}』라인부터 사리지원을 제취할 수 있습니다." />
+  <Lang ChineseText="只有皇城战期间才能提取舍利之源!" OtherLangText="오직 황성전 기간에만 사리지원을 제취할 수 있습니다." />
+  <Lang ChineseText="皇城战已经结束!" OtherLangText="황성전은 이미 종료되었습니다!" />
+  <Lang ChineseText="只有拥有领地的势力首领才可以提取舍利之源!" OtherLangText="오직 영지의 세력 수령만이 사리지원을 제취할 수 있습니다." />
+  <Lang ChineseText="舍利之源已经被其他角色提取" OtherLangText="사리지원은 이미 다른캐릭터에 의해 제취되었습니다." />
+  <Lang ChineseText="势力库存铜钱不足，提取舍利之源需要【{0}万】铜钱！" OtherLangText="세력창고에 저자한 동전이 부족합니다. 사리지원을 제취하려면 【{0}만】동전이 필요합니다！" />
+  <Lang ChineseText="当前线路{0}在线人数{1}" OtherLangText="현재 라인{0}에는 {1}명의 접속자가 있습니다." />
+  <Lang ChineseText="获取所有线路在线人数时连接数据库失败" OtherLangText="모든 라인에 접속한 접속자수를 제취할때 데이터가 오류가 발생해 실패했습니다." />
+  <Lang ChineseText="获取所有线路在线人数是{0}" OtherLangText="모든 라인의 접속자 수는 {0} 입니다." />
+  <Lang ChineseText="进入隐身模式" OtherLangText="은신패턴 진입" />
+  <Lang ChineseText="已经是隐身模式" OtherLangText="이미 은신패턴 상태입니다." />
+  <Lang ChineseText="退出隐身模式" OtherLangText="은신패턴에서 나가기" />
+  <Lang ChineseText="已经退出隐身模式" OtherLangText="이미 은신패턴에서 나갔습니다." />
+  <Lang ChineseText="请输入： -moveto 地图编号 X坐标 Y坐标" OtherLangText="입력하기： -moveto 지도번호  X좌표 Y좌표를 입력하세요." />
+  <Lang ChineseText="执行移动到目标点({0},{1})的操作成功" OtherLangText="목적지 ({0},{1}) 이동 집행관련 조작 성공" />
+  <Lang ChineseText="目标点({0},{1})可能是障碍物" OtherLangText="목적지 ({0},{1})은 가능하게 장애물 입니다." />
+  <Lang ChineseText="请输入正确的地图编号, 副本地图无法直接进入" OtherLangText="정확한 지도번호를 입력하세요. 던전지도는 직접 진입할 수 없습니다." />
+  <Lang ChineseText="请输入： -line 角色名称" OtherLangText="입력하기： -line 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="获取{0}的线路状态时连接数据库失败" OtherLangText="{0} 라인 상태를 제취할때 연결데이터가 실패했습니다." />
+  <Lang ChineseText="{0}所在的线路是{1}" OtherLangText="{0}이 있는 라인은 {1}입니다." />
+  <Lang ChineseText="请输入： -viewum 角色名称" OtherLangText="입력하기： -viewum 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="获取{0}的元宝数时连接数据库失败" OtherLangText="{0}의 원보수를 획득할때 연결데이터가 실해했습니다." />
+  <Lang ChineseText="{0}的平台ID是{1}，元宝是{2}，ＲＭＢ{3}" OtherLangText="{0} 플랫폼 ID는 {1}입니다. 원보는 {2} 입니다.ＲＭＢ{3}" />
+  <Lang ChineseText="请输入： -follow 角色名称" OtherLangText="입력하기： -follow 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="{0}不在线" OtherLangText="{0}온라인 하지 않았음" />
+  <Lang ChineseText="执行移动到{0}身边的操作成功" OtherLangText="{0}곁으로 이동작업 성공" />
+  <Lang ChineseText="执行移动到{0}身边的操作失败" OtherLangText="{0}곁으로 이동작업 실패" />
+  <Lang ChineseText="{0}目前在副本地图, 无法移动到其旁边" OtherLangText="{0}은 현재 던전지도에 있기에 다른곳으로 이동할 수 없습니다." />
+  <Lang ChineseText="请输入： -kick 角色名称" OtherLangText="입력하기： -kick 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="将{0}踢出了当前线路" OtherLangText="{0}을 현재라인에서 캑했습니다." />
+  <Lang ChineseText="根据GM的要求将{0}踢出了服务器..." OtherLangText="GM의 요구에 따라서 {0}을 서버에서 킥했습니다...." />
+  <Lang ChineseText="请输入： -kicku 账户名称" OtherLangText="입력하기： -kicku 계정명칭을 입력하세요." />
+  <Lang ChineseText="将账户{0}的角色踢出服务器" OtherLangText="{0}의 계정 캐릭터를 서버에서 킥했습니다." />
+  <Lang ChineseText="根据GM的要求将账户{0}的角色踢出了服务器..." OtherLangText="GM의 요구에 따라서 계정 {0}의 캐릭터를 서버에서 킥했습니다...." />
+  <Lang ChineseText="请输入： -ban 角色名称" OtherLangText="입력하기： -ban 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="根据GM的要求将{0}踢出了服务器，并禁止从任何线路再登陆" OtherLangText="GM의 요구에 따라 {0}을 서버에서 킥했으며 어떠한 라인으로도 로그인할 수 없습니다." />
+  <Lang ChineseText="将{0}踢出了当前线路, 并禁止从任何线路再登陆" OtherLangText="{0}를 현재 라인에서 킥했으며 어떠한 라인으로도 로그인할 수 없습니다." />
+  <Lang ChineseText="请输入： -unban 角色名称" OtherLangText="입력하기： -unban 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="解除对于{0}的禁止登陆限制" OtherLangText="{0}에대한 로그인금지 제한을 제거했습니다." />
+  <Lang ChineseText="请输入： -banchat 角色名称 几个小时" OtherLangText="입력하기： -banchat 캐릭터명칭 몇시간" />
+  <Lang ChineseText="将{0}列入黑名单，禁止聊天发言" OtherLangText="{0}을 블랙명단에 추가했으며 채팅창에서 발언금지 되었습니다." />
+  <Lang ChineseText="请输入： -unbanchat 角色名称" OtherLangText="입력하기： -unbanchat 캐릭터 명칭을 입력하세요" />
+  <Lang ChineseText="解除对于{0}的禁止聊天发言限制" OtherLangText="{0}에대한 채팅금지 제한을 제거합니다." />
+  <Lang ChineseText="请输入： -recover 角色名称" OtherLangText="입력하기： -recover 캐릭터 명칭을 입력하세요." />
+  <Lang ChineseText="根据GM的要求为{0}恢复血和蓝..." OtherLangText="GM의 요구에 따라서 {0}를 위해 HP와 MP를 회복합니다." />
+  <Lang ChineseText="为{0}恢复了HP和MP" OtherLangText="为{0}위해 HP과 MP를 회복합니다." />
+  <Lang ChineseText="请输入： -setlev 角色名称 级别" OtherLangText="입력하기： -setlev 캐릭터명칭 레벨 입력하세요." />
+  <Lang ChineseText="设置的级别{0}超出了最大限制100" OtherLangText="설정한 {0}급수가 최대한도 100을 초과했습니다." />
+  <Lang ChineseText="根据GM的要求为{0}设置级别{1}" OtherLangText="GM의 요구에 따라서 {0}를 {1}레벨로 설정했습니다." />
+  <Lang ChineseText="为{0}设置了级别{1}" OtherLangText="{0}를 위해 {1}레벨로 설정했습니다." />
+  <Lang ChineseText="请输入： -addexp 角色名称 经验(可以是负数)" OtherLangText="입력하기： -addexp 캐릭터 명칭을 입력하세요.경험치(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加经验{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해 {1}경험 추가했습니다." />
+  <Lang ChineseText="为{0}添加了经验{1}" OtherLangText="{0}을 위해 {1}경험 추가했습니다." />
+  <Lang ChineseText="请输入： -addexp2 当前等级需要经验的百分数(最大100)" OtherLangText="입력하기： -addexp2 현재 레벨에 필요한 경험의 비례수(최대100)" />
+  <Lang ChineseText="根据GM的要求为所有在线用户添加经验百分比{0}" OtherLangText="GM의 요구에 따라서 모든 온라인 접속자를 위해 {0}경험치 비례를 추가했습니다." />
+  <Lang ChineseText="为所有在线用户添加经验百分比{0}" OtherLangText="모든 온라인 접속자를 위해서 {0}경험치 비례를 추가했습니다." />
+  <Lang ChineseText="请输入： -addipower 角色名称 内力(可以是负数)" OtherLangText="입력하기： -addipower 캐릭터 명칭을 입력하세요.경험치(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加灵力{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해서 {1}영력 추가했습니다." />
+  <Lang ChineseText="为{0}添加了灵力{1}" OtherLangText="{0}을 위해 {1}영력 추가했습니다." />
+  <Lang ChineseText="请输入： -addmoney 角色名称 游戏币(可以是负数)" OtherLangText="입력하기： -addmoney 캐릭터 명칭을 입력하세요. 게임머니(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加游戏币{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해서 {1}게임머니를 추가했습니다." />
+  <Lang ChineseText="为{0}添加了游戏币{1}" OtherLangText="{0}를 위해서 게임머니 {1}를 추가했습니다." />
+  <Lang ChineseText="请输入： -addlj 角色名称 银两(可以是负数)" OtherLangText="입력하기： -addlj 캐릭터 명칭을 입력하세요. 은화(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加银两{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해  {1}은화 추가했습니다." />
+  <Lang ChineseText="角色获取银两, roleID={0}({1}), YinLiang={2}, newYinLiang={3}" OtherLangText="캐릭터가 획득한 은화. roleID={0}({1}), YinLiang={2}, newYinLiang={3}" />
+  <Lang ChineseText="为{0}添加了银两{1}" OtherLangText="为{0}를 위해서 {1}은화 추가했습니다." />
+  <Lang ChineseText="请输入： -adddj 角色名称 元宝(可以是负数)" OtherLangText="입력하기： -adddj 캐릭터 명칭을 입력하세요.원보(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加元宝{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 {1}원보 추가했습니다." />
+  <Lang ChineseText="为{0}添加了元宝{1}" OtherLangText="{0}을 위해서 {1}원보 추가했습니다." />
+  <Lang ChineseText="请输入： -additem 角色名称 物品名称 个数(1~99) 级别(0~10) 品质(白色/蓝色/紫色/金色) 绑定(0/1)" OtherLangText="입력하기： -additem 캐릭터 명칭과 상품명칭, 개수 (1~99) , 레벨(0~10), 품질(흰색/남색/보라색/금색)을 입력하고 귀속하세요(0/1)" />
+  <Lang ChineseText="系统中不存在{0}" OtherLangText="시스템에 존재하지 않는 {0}입니다." />
+  <Lang ChineseText="{0}包裹已经满，已经添加{1}个{2}, 剩余{2}个无法添加{1}" OtherLangText="{0} 가방은 이미 공간이 없습니다. 이미 {1}개{2}를 추가했습니다.  나머지{2}개 {1}를 추가할 수 없습니다." />
+  <Lang ChineseText="根据GM的要求为{0}添加物品{1}, 个数:{2}, 级别{3}, 品质:{4}, 绑定:{5}" OtherLangText="GM의 요구에 따라서 {0}를 위해 상품{1}를 추가햇습니다. 개수:{2}, 레벨{3}, 품질:{4}, 귀속:{5}" />
+  <Lang ChineseText="GM添加" OtherLangText="GM추가" />
+  <Lang ChineseText="{0}包裹已经满，无法添加{1}" OtherLangText="{0}가방은 이미 공간이 없습니다. 더이상 {1}을 추가할 수 없습니다." />
+  <Lang ChineseText="为{0}添加了物品{1}, 个数{2}, 级别{3}, 品质{4}, 绑定{5}" OtherLangText="{0}를 위해서 상품 {1}를 추가했습니다. 개수{2}, 레벨{3}, 품질{4}, 귀속{5}" />
+  <Lang ChineseText="请输入： -additem2 角色名称 物品名称 个数 绑定(0/1) 限制日期(2011-01-01) 限制时间(00$00$00)" OtherLangText="입력하기： -additem2 캐릭터 명칭과 상품명칭을 입력하세요. 수량 귀속(0/1) 제한날자(2011-01-01) 제한시간(00$00$00)" />
+  <Lang ChineseText="限时格式错误{0} {1}" OtherLangText="제한시간 격식 오류{0} {1}" />
+  <Lang ChineseText="不能添加限时的{0}" OtherLangText="제한시간을 추가할수 없다. {0}" />
+  <Lang ChineseText="根据GM的要求为{0}添加物品{1}, 个数:{2}, 级别{3}, 品质:{4}, 绑定:{5}, 结束时间:{6}" OtherLangText="GM의 요구에 따라서 {0}를 위해 상품{1}을 추가했습니다.개수:{2}, 레벨:{3}, 품질:{4}, 귀속:{5}, 종료시간:{6}" />
+  <Lang ChineseText="为{0}添加了物品{1}, 个数{2}, 级别{3}, 品质{4}, 绑定{5}, 结束时间:{6} {7}" OtherLangText="{0}를 위해 {1}상품을 추가했습니다. 개수{2}, 레벨{3}, 품질{4}, 귀속{5}, 종료시간:{6} {7}" />
+  <Lang ChineseText="请输入： -addid 角色名称 物品ID 个数(1~99) 级别(0~10) 品质(白色/绿色/蓝色/紫色/金色) 绑定(0/1)" OtherLangText="입력하기： -addid 캐릭터 명칭 상품ID를 입력하세요.개수(1~99) 레벨(0~10) 품질(흰색/녹색/남색/보라색/금색) 귀속(0/1)" />
+  <Lang ChineseText="请输入： -setpkv 角色名称 pk值(最小值0) pk点(最小值0)" OtherLangText="입력하기： -setpkv 캐릭터 명칭 입력하세요. pk지수(최소치0) pk포인트(최소치0)" />
+  <Lang ChineseText="根据GM的要求为{0}设置PK值{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해 PK 수치를 {1}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置了PK值{1}" OtherLangText="{0}를 위해서 PK 수치를 {1}로 설정했습니다." />
+  <Lang ChineseText="请输入： -adddjpoint 角色名称 点将积分(可以是负数)" OtherLangText="입력하기： -adddjpoint 캐릭터 명칭을 입력하세요. 점장점수(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}添加点将积分{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해서 {1}점장점수를 추가했습니다." />
+  <Lang ChineseText="为{0}添加点将积分{1}" OtherLangText="{0}을 위해서 {1}점장점수를 추가했습니다." />
+  <Lang ChineseText="请输入： -settaskv 角色名称 任务名称 目标类型(1/2) 数值(可以是负数)" OtherLangText="입력하기： -settaskv 캐릭터 명칭을 입력하세요. 목표유형(1/2) 추시(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}设置任务{1}, 值类型:{2}, 任务值:{3}" OtherLangText="GM의 요구에 따라서 {0}를 위헤서 {1}임무를 설정했습니다. 수치유형:{2}, 임무수치:{3}" />
+  <Lang ChineseText="为{0}设置任务{1}, 值类型{2}, 任务值{3}" OtherLangText="{0}를 위해서 {1}임무를 설정했습니다.수치유형{2},임무수치{3}" />
+  <Lang ChineseText="根据GM的要求为关闭服务器: {0}" OtherLangText="GM의 요구에 따라서 서버를 닫았습니다: {0}" />
+  <Lang ChineseText="请输入： -auth 公告开关(0/1)" OtherLangText="입력하기： -auth 공지 스위치(0/1)" />
+  <Lang ChineseText="根据GM的切换授权开关: {0}" OtherLangText="GM의 교환권한 스위치: {0}" />
+  <Lang ChineseText="请输入： -bull 公告ID(文字和数字都可以) 多少分钟(数字, -1表示永久公告) 次数(数字, 客户端播放次数, -1表示一直循环) 公告文字" OtherLangText="입력하기： -bull 공지 ID(문자와 수자 다됨)시간(수자, -1는 영구공지를 의미함) 횟수(숫자, 클라이언트에 플레이한 횟수, -1은 계속순환됨을 의미함) 공지문자" />
+  <Lang ChineseText="公告ID不能为空" OtherLangText="공지 ID가 비어서는 안됩니다." />
+  <Lang ChineseText="根据GM的要求发布公告: {0} {1} {2} {3}" OtherLangText="GM의 요구에 따라서 공지 발표: {0} {1} {2} {3}" />
+  <Lang ChineseText="根据GM的要求列举公告" OtherLangText="GM의 요구에 따라서 공지를 열거했습니다.." />
+  <Lang ChineseText="请输入： -rmbull 公告ID(文字和数字都可以)" OtherLangText="입력하기： -rmbull 공지ID(문자와 수자 다됨)" />
+  <Lang ChineseText="根据GM的要求删除公告: {0}" OtherLangText="GM의 요구에 따라서 공지를 삭제: {0}" />
+  <Lang ChineseText="请输入： -sysmsg 临时公告ID(文字和数字都可以) 临时公告文字" OtherLangText="입력하기： -sysmsg 임시공지 ID(문자와 수자 다됨) 임시공지문자" />
+  <Lang ChineseText="临时公告ID不能为空" OtherLangText="임시공지 ID는 비어서는 안됩니다." />
+  <Lang ChineseText="根据GM的要求发布临时公告: {0} {1} {2} {3}" OtherLangText="GM의 요구에 따라서 임시로 공지를 발표함: {0} {1} {2} {3}" />
+  <Lang ChineseText="请输入： -hintmsg 消息类型 显示类型 提示文字" OtherLangText="입력하기： -hintmsg 소식유형 표시유형 알림 문자" />
+  <Lang ChineseText="根据GM的要求发布提示消息: {0} {1} {2}" OtherLangText="GM의 요구에 따라서 알림 메시지를 발표함: {0} {1} {2}" />
+  <Lang ChineseText="请输入： -hintmsg2 帮会ID 消息类型 显示类型 提示文字" OtherLangText="입력하기： -hintmsg2 방회ID 소식유형 표시유형 알림문자" />
+  <Lang ChineseText="根据GM的要求发布帮会提示消息: {0} {1} {2} {3}" OtherLangText="GM의 요구에 따라 방회의 알림 메시지를 발표함: {0} {1} {2} {3}" />
+  <Lang ChineseText="请输入： -config 参数名称 参数值" OtherLangText="입력하기： -config 피라미터값 명칭 피라미터값" />
+  <Lang ChineseText="参数名称不能为空" OtherLangText="피라미터값 명칭이 비어서는 안됩니다." />
+  <Lang ChineseText="参数值不能为空" OtherLangText="피라미터값은 비어서는 안됩니다." />
+  <Lang ChineseText="根据GM的要求更改游戏参数: {0}=&gt;{1}" OtherLangText="GM의 요구에 따라서 게임 피라미터값을 수정: {0}=&gt;{1}" />
+  <Lang ChineseText="根据GM的要求列举游戏参数" OtherLangText="GM의 요구에 따라서 게임피라미터값을 열거했습니다." />
+  <Lang ChineseText="请输入： -setjmrate 角色名称 冲穴成功率倍数" OtherLangText="입력하기： -setjmrate 캐릭터 명칭 맥 관통 성공율배수" />
+  <Lang ChineseText="根据GM的要求为{0}设置冲穴的成功率倍数{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 맥 관통 성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="为{0}设置冲穴成功率倍数{1}" OtherLangText="{0}를 위해 맥 관통 성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="请输入： -sethrate1 角色名称 坐骑强化成功率倍数" OtherLangText="입력하기： -sethrate1 캐릭터명칭 탑승도구강화 성공율 배수" />
+  <Lang ChineseText="根据GM的要求为{0}设置坐骑强化的成功率倍数{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해 탑승도구 강화 성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="为{0}设置坐骑强化成功率倍数{1}" OtherLangText="{0}를 위해 탑승도구 강화성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="请输入： -sethrate1 角色名称 坐骑进阶成功率倍数" OtherLangText="입력하기： -sethrate1 캐릭터 명칭 탑승도구진급 성공율 배수" />
+  <Lang ChineseText="根据GM的要求为{0}设置坐骑进阶的成功率倍数{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해 탑승도구 진급의 성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="为{0}设置坐骑进阶成功率倍数{1}" OtherLangText="{0}를 위해 탑승도구 진급 성공율을 {1}배로 설정했습니다." />
+  <Lang ChineseText="请输入： -setjmlev 角色名称 经脉ID 穴位ID" OtherLangText="입력하기： -setjmlev 캐릭터 명칭 경맥ID 혈위ID" />
+  <Lang ChineseText="经脉的ID{0}超过了范围限制, 应该是:{1}-{2}" OtherLangText="경맥 ID{0}범위를 초과했습니다. 정확한 것은 {1}-{2}입니다." />
+  <Lang ChineseText="根据GM的要求为{0}设置经脉{1}的穴位为{2}" OtherLangText="GM의 요구에 따라서 {0}를 위해 {1}경맥의 혈위를 {2}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置经脉{1}的穴位为{2}" OtherLangText="{0}을 위해 경{1}경맥의 혈위를 {2}로 설정했습니다." />
+  <Lang ChineseText="请输入： -setskilllev 角色名称 技能ID 级别" OtherLangText="입력하기： -setskilllev 캐릭터 명칭 기능ID레벨" />
+  <Lang ChineseText="技能ID{0}在系统中不存在" OtherLangText="기능ID{0}은 시스템중 존재하지 않습니다." />
+  <Lang ChineseText="{0}尚未学习{1}技能" OtherLangText="{0}은 아직 {1}기능을 배우지 못했습니다." />
+  <Lang ChineseText="根据GM的要求为{0}设置技能{1}的级别为{2}" OtherLangText="GM의 요구에 따라서 {0}를 위해 {1}기능의 레벨을 {2}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置技能{1}的级别为{2}" OtherLangText="{0}를 위해 {1}기능의 레벨을 {2}로 설정했습니다.." />
+  <Lang ChineseText="请输入： -setskillum 角色名称 技能ID 熟练度值" OtherLangText="입력하기： -setskillum 캐릭터 명칭 기능ID 숙련도" />
+  <Lang ChineseText="根据GM的要求为{0}设置技能{1}的熟练度为{2}" OtherLangText="GM의 요구에 따라서 {0}를 위해 {1}기능의 숙련도를 {2}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置技能{1}的熟练度为{2}" OtherLangText="{0}를 위해 {1}기능의 숙련도를 {2}로 설정했습니다.." />
+  <Lang ChineseText="请输入： -del 角色名称" OtherLangText="입력하기： -del 캐릭터 명칭" />
+  <Lang ChineseText="根据GM的要求从数据库删除:{0}" OtherLangText="GM의 요구에 따라서 데이터를 삭제:{0}" />
+  <Lang ChineseText="从数据库删除{0}" OtherLangText="데이터에서 수치를 삭제{0}" />
+  <Lang ChineseText="请输入： -undel 角色名称" OtherLangText="입력하기： -undel 캐릭터 명칭" />
+  <Lang ChineseText="根据GM的要求为恢复删除:{0}" OtherLangText="GM의 요구에 따라서 부활삭제:{0}" />
+  <Lang ChineseText="为{0}恢复删除" OtherLangText="{0}을위해 부활삭제" />
+  <Lang ChineseText="请输入： -modlimit 角色名称" OtherLangText="입력하기： -modlimit 캐릭터명칭" />
+  <Lang ChineseText="根据GM的要求为修改最大在线人数{0}" OtherLangText="GM의 요구에 따라서 최대 온라인접속자수{0}로 설정했습니다.." />
+  <Lang ChineseText="修改最大在线人数限制为{0}" OtherLangText="최대 온라인접속자수를  {0}로 설정했습니다.." />
+  <Lang ChineseText="请输入： -listhorse 角色名称" OtherLangText="입력하기： -listhorse 캐릭터 명칭" />
+  <Lang ChineseText="根据GM的要求列举{0}的坐骑ID列表" OtherLangText="GM의 요구에 따라서 열거한 {0} 탑승도구 ID목록" />
+  <Lang ChineseText="{0}的坐骑ID列表为空" OtherLangText="{0}의 탑승도구 ID목록이 비여있습니다." />
+  <Lang ChineseText="请输入：-sethl 角色名称 坐骑ID(-listhorse得到的ID) 幸运值" OtherLangText="입력하기：-sethl 캐릭터 명칭 탑승도구ID(-listhorse획득한 ID) 행운값" />
+  <Lang ChineseText="根据GM的要求为{0}设置坐骑ID{1}的进阶幸运值" OtherLangText="GM의 요구에 따라서 {0} 탑승도구 ID를 {1}의 진급 행운값으로 설정했습니다." />
+  <Lang ChineseText="在{0}的坐骑列表中没有找到ID为{1}的坐骑" OtherLangText="{0}의 탑승도구 목록에서 ID가 {1}인 탑승도구를 찾을수 없습니다." />
+  <Lang ChineseText="为{0}的坐骑ID为{1}的设置幸运值{2}" OtherLangText="{0}의 탑승도구 ID를 {1}의 행운값 {2}로 설정했습니다.." />
+  <Lang ChineseText="请输入： -setwlogin 角色名称 天数" OtherLangText="입력하기： -setwlogin 캐릭터 명칭 날자수" />
+  <Lang ChineseText="根据GM的要求为{0}设置本周的连续登录天数{1}" OtherLangText="GM의 요구에 따라서 {0}을 위해 본주의 연속 로그인 날자수를 {1}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置本周的连续登录天数{1}" OtherLangText="{0}를 위해 본주의 연속 로그인 날자를 {1}로 설정했습니다." />
+  <Lang ChineseText="请输入： -setmtime 角色名称 在线时长(秒数)" OtherLangText="입력하기： -setmtime 캐릭터 명칭 온라인 접속시간 (초)" />
+  <Lang ChineseText="根据GM的要求为{0}设置本月的在线时长{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해 이번달의 온라인 접속시간을 {1}로 설정했습니다." />
+  <Lang ChineseText="请输入： -setnstep 角色名称 当前步骤(1~5)" OtherLangText="입력하기： -setnstep 캐릭터 명칭 현재순서(1~5)" />
+  <Lang ChineseText="根据GM的要求为{0}设置新手见面礼物领取的步骤{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해 초보자 선물받기 순서를 {1}로 설정했습니다." />
+  <Lang ChineseText="为{0}设置新手见面礼物领取的步骤{1}" OtherLangText="{0}를 위해 초보자 선물받기 순서를 {1}로 설정했습니다." />
+  <Lang ChineseText="通知账户ID{0}的角色更新元宝数量" OtherLangText="계정ID{0}의 캐릭터 원보수량 새로고침 통지" />
+  <Lang ChineseText="请输入： -setfbnum 角色名称 副本ID 当日次数(可以是负数)" OtherLangText="입력하기： -setfbnum 캐릭터 명칭 던전ID 당일횟수(부수가 될수도 있습니다.)" />
+  <Lang ChineseText="根据GM的要求为{0}增加副本ID{1}的当日次数{2}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 던전ID{1}의 당일횟수를 {2}로 증가했습니다." />
+  <Lang ChineseText="为{0}增加副本ID{1}的当日次数{2}" OtherLangText="{0}를 위해서 던전ID{1}의 당일횟수를 {2}로 증가했습니다." />
+  <Lang ChineseText="请输入：-addattack 角色名称 攻击力(值)" OtherLangText="입력하기：-addattack 캐릭터 명칭 공격력(값)" />
+  <Lang ChineseText="根据GM的要求为{0}临时增加物攻和魔攻{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 임시로 물리공격과 마법공을 {1}로 증가했습니다." />
+  <Lang ChineseText="为{0}临时增加物攻和魔攻{1}" OtherLangText="{0}를 위해서 임시로 물리공격과 마법공격을 {1}로 증가했습니다." />
+  <Lang ChineseText="请输入：-adddefense 角色名称 防御力(值)" OtherLangText="입력하기：-adddefense 캐릭터 명칭 방어력(값)" />
+  <Lang ChineseText="根据GM的要求为{0}临时增加物防和魔防{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 임시로 물리방어와 마법방어를 {1}로 증가했습니다." />
+  <Lang ChineseText="为{0}临时增加物防和魔防{1}" OtherLangText="{0}를 위해서 임시로 물리방어와 마법방어를 {1}로 증가했습니다." />
+  <Lang ChineseText="请输入：-setybstate 角色名称 状态(0：成功，1：失败)" OtherLangText="입력하기：-setybstate 캐릭터 명칭 상태(0：성공，1：실패)" />
+  <Lang ChineseText="根据GM的要求为{0}修改押镖的状态{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 압표의 상태를 {1}로 수정했습니다." />
+  <Lang ChineseText="为{0}修改押镖的状态{1}" OtherLangText="{0}를 위해서 압표의 상태를 {1}로 수정했습니다." />
+  <Lang ChineseText="{0}当前无运镖数据" OtherLangText="{0}현재 운표데이터가 없음" />
+  <Lang ChineseText="请输入：-reload xml文件名称,不区分大小写(例如：config/mall.xml)" OtherLangText="입력하기：-reload xml파일명칭,대소문자 구분하지 않음(예：config/mall.xml)" />
+  <Lang ChineseText="根据GM的要求重新加载{0}" OtherLangText="GM의 요구에 따라서 다시로딩{0}" />
+  <Lang ChineseText="重新加载参数{0}, 结果：{1}" OtherLangText="다시로딩 피라미터값{0},결과：{1}" />
+  <Lang ChineseText="根据转发的GM的要求重新加载{0}, 结果为:{1}" OtherLangText="발송한 GM의 요구에 따라서 다시로딩{0}, 결과:{1}" />
+  <Lang ChineseText="请输入：-reload2 xml文件名称,不区分大小写(例如：config/mall.xml)" OtherLangText="입력하기：-reload2 xml패일명칭,대소문자 구분하지 않음(예：config/mall.xml)" />
+  <Lang ChineseText="根据GM的要求通知所有线重新加载{0}" OtherLangText="GM의 요구에 따라서 모든 라인에서 다시 로딩하도록 통지{0}" />
+  <Lang ChineseText="所有线重新加载参数{0}, 结果：{1}" OtherLangText="모든라인 다시 로그인한 피라미터값{0}, 결과：{1}" />
+  <Lang ChineseText="根据超级GM的要求重新加载GM参数" OtherLangText="특급 GM의 요구에 따라서 다시 로딩한 GM피라미터값" />
+  <Lang ChineseText="重新加载GM参数, 结果：{0}" OtherLangText="다시 로딩한 GM피라미터 값, 결과：{0}" />
+  <Lang ChineseText="根据GM的要求重新加载排行榜" OtherLangText="GM의 요구에 따라서 랭킹순위를 다시로딩" />
+  <Lang ChineseText="重新加载排行榜成功" OtherLangText="랭킹순위 다시로딩 성공" />
+  <Lang ChineseText="请输入：-clrrolecache 角色名称(带区号)" OtherLangText="입력하기：-clrrolecache 캐릭터 명칭(지역번호 필수)" />
+  <Lang ChineseText="根据GM的要求清空{0}角色的数据库缓存" OtherLangText="GM의 요구에 따라서 {0}캐릭터의 데이터와 쿠키를 삭제" />
+  <Lang ChineseText="清空{0}角色的数据库缓存成功" OtherLangText="{0}캐릭터의 데이터와 쿠키삭제 성공" />
+  <Lang ChineseText="请输入：-addheroidx 角色名称 层数(大于等于0，小于等于13)" OtherLangText="입력하기：-addheroidx 캐릭터 명칭 층수(크기같기0，작기같기13)" />
+  <Lang ChineseText="根据GM的要求为{0}修改英雄逐擂的到达层数{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해 영웅축뢰 도착층수를 {1}로 수정했습니다." />
+  <Lang ChineseText="为{0}修改英雄逐擂的到达层数{1}" OtherLangText="{0}을 위해 영웅축뢰의 도착층수를 {1}로 수정했습니다." />
+  <Lang ChineseText="请输入：-setlz  角色名称 连斩数" OtherLangText="입려하기：-setlz  캐릭터 명칭 연속베기횟수" />
+  <Lang ChineseText="根据GM的要求为{0}修改连斩数{1}" OtherLangText="GM의 요구에 따라서 {0}를 위해서 연속베기 횟수를 {1}로 수정했습니다." />
+  <Lang ChineseText="为{0}修改连斩数{1}" OtherLangText="{0}를 위해 연속베기 횟수를 {1}로 수정했습니다." />
+  <Lang ChineseText="加载物品包时, 读取物品列表错误, BaoguoID={0}" OtherLangText="상품가방 로딩할때 목록읽기에서 오류가 발생했습니다. BaoguoID={0}" />
+  <Lang ChineseText="加载物品包时, 物品列表格式错误, BaoguoID={0}, List={1}" OtherLangText="상품가방 로딩할때 목록읽기에서 오류가 발생했습니다. BaoguoID={0}, List={1}" />
+  <Lang ChineseText="加载物品包时, 物品列表格中的物品配置项错误, BaoguoID={0}, GoodsItem={1}" OtherLangText="상품가방 로딩할때 목록읽기에서 오류가 발생했습니다. BaoguoID={0}, GoodsItem={1}" />
+  <Lang ChineseText="解析掉落项时发生错误, GoodsPackID={0}, GoodsID={1}" OtherLangText="드랍상품 해석할때 오류가 발생했습니다. GoodsPackID={0}, GoodsID={1}" />
+  <Lang ChineseText="{0}对{1}摇出的骰子点数为{2}" OtherLangText="{0}께서 {1}한테 은들어 던진 주사위 점수는 {2}입니다." />
+  <Lang ChineseText="{0}摇出了最大点数，获得{1}" OtherLangText="{0}은 제일큰 주사위 점수 {1}를 획득했습니다." />
+  <Lang ChineseText="杀怪掉落后自动拾取" OtherLangText="몬스터 사냥후 자동으로 드랍된 아이템 획득" />
+  <Lang ChineseText="包裹已满，请先清理出空格再拾取物品" OtherLangText="가방은 이미 찾습니다. 우선먼저 공간을 정리하고 나머지 물건을 주으세요." />
+  <Lang ChineseText="处理自动挂机拾取物品到背包时，获取物品xml信息失败: GoodsID={0}" OtherLangText="자동플레이처리로 물건을 주어 가방에 넣을때 획득한 상품xml정보가 실패했습니다.: GoodsID={0}" />
+  <Lang ChineseText="处理怪物掉落时，获取掉落项失败: GoodsPackID={0}, RoleID={1}" OtherLangText="몬스터가 드랍한 물건을 처리할때 드랍획득 실패했습니다.: GoodsPackID={0}, RoleID={1}" />
+  <Lang ChineseText="很不幸，你被{0}杀死后，{1}({2})从背包中掉落了" OtherLangText="죄송합니다. 당신은 {0}에 의해서 살해된후 {1}({2})가 가방에서 드랍되었습니다." />
+  <Lang ChineseText="很不幸，你被{0}击杀后，{1}({2})从背包中掉落了" OtherLangText="죄송합니다. 당신은 {0}에 의해서 살해된후 {1}({2})가 가방에서 드랍되었습니다." />
+  <Lang ChineseText="杀怪掉落后手动拾取" OtherLangText="몬스터 사냥하고 드랍되는 아이템 수동으로 획득." />
+  <Lang ChineseText="角色获取帮贡, roleID={0}({1}), BangGong={2}, newBangGong={3}" OtherLangText="캐릭터가 공물획득, roleID={0}({1}), BangGong={2}, newBangGong={3}" />
+  <Lang ChineseText="解析{0}文件中的奖励项时失败, 物品配置项个数错误" OtherLangText="{0}파일중의 보상항목 해석시 실패,상품성절항목 개수 오류" />
+  <Lang ChineseText="根据奖励类型定位周连续登录配置项失败, WhichOne={0}" OtherLangText="보상유형에 따라서 주 연속 로그인 설정실패, WhichOne={0}" />
+  <Lang ChineseText="根据奖励类型定位周连续登录配置项中的物品奖励失败, WhichOne={0}" OtherLangText="보상유형 주 연속 로그인 설정중에 상품보상 설정 실패, WhichOne={0}" />
+  <Lang ChineseText="周连续登录配置" OtherLangText="주 연속 로그인 설정" />
+  <Lang ChineseText="周连续登录奖励" OtherLangText="주 연속 로그인 보상" />
+  <Lang ChineseText="根据奖励类型定位月在线时长配置项失败, WhichOne={0}" OtherLangText="보상 유형에 따라서 월 온라인 접속시간 설정 실패, WhichOne={0}" />
+  <Lang ChineseText="根据奖励类型定位见面有礼配置项失败, Step={0}" OtherLangText="보상 유형에 따라서 만남의선물 설정 실패, Step={0}" />
+  <Lang ChineseText="见面有礼配置项" OtherLangText="만남의 선물설정항목" />
+  <Lang ChineseText="新手见面奖品" OtherLangText="초보자 만남의선물" />
+  <Lang ChineseText="读取大奖活动配置文件中的物品配置项1失败" OtherLangText="대상 이벤트설정파일 데이터 읽기에서 상품설정항목 1 실패" />
+  <Lang ChineseText="读取大奖活动配置文件中的物品配置项失败" OtherLangText="대상 이벤트설정파일 데이터 읽기에서 상품설정항목 실패" />
+  <Lang ChineseText="大奖活动配置" OtherLangText="대상 이벤트 설정" />
+  <Lang ChineseText="充值有礼" OtherLangText="충전이벤트" />
+  <Lang ChineseText="读取送礼活动配置文件中的物品配置项1失败" OtherLangText="선물이벤트 설정파일 데이터 읽기에서 상품설정 1 실패" />
+  <Lang ChineseText="读取送礼活动配置文件中的物品配置项失败" OtherLangText="설물이벤트 설정파일 데이터 읽기에서 상품설정항목 실패" />
+  <Lang ChineseText="送礼活动配置" OtherLangText="설물이벤트설정" />
+  <Lang ChineseText="系统送礼" OtherLangText="시스템에서 선물주기" />
+  <Lang ChineseText="未知" OtherLangText="알수없음" />
+  <Lang ChineseText="为RoleID生成军旗对象时失败, MapCode={0}, BHID={1}, BHName={2}, NPCID={3}, QiName={4}, QiLevel={5}" OtherLangText="RoleID를 위해서 군기대상 생성할때 실패, MapCode={0}, BHID={1}, BHName={2}, NPCID={3}, QiName={4}, QiLevel={5}" />
+  <Lang ChineseText="军旗减血, Injure={0}, Life={1}" OtherLangText="군기HP감소, Injure={0}, Life={1}" />
+  <Lang ChineseText="军旗死亡, roleID={0}" OtherLangText="군기사망, roleID={0}" />
+  <Lang ChineseText="本势力成员成【{0}】在[{1}]『{2}』成功将【{3}】势力的军旗砍倒，值得敬佩" OtherLangText="본 세력의 회원 【{0}】는 [{1}]『{2}』에서 성공적으로 【{3}】세력의 군기를 쓰러뜨렸다. 감탄할만하구나." />
+  <Lang ChineseText="很不幸，本势力军旗在[{0}]『{1}』惨被{2}【{3}】砍倒，请火速前往支援" OtherLangText="죄송합니다. 본 세력의 군기가 [{0}]『{1}』에서 처참하게 {2}【{3}】에 의해 쓰러졌습니다. 신속하게 지원군을 보내세요." />
+  <Lang ChineseText="『{0}』势力成员" OtherLangText="『{0}』세력회원" />
+  <Lang ChineseText="只有从『{0}』线才能进入『{1}』地图" OtherLangText="오직『{0}』라인에서『{1}』지도 진입이 가능합니다." />
+  <Lang ChineseText="传送到五行奇阵下一层时，从包裹中扣除【{0}】失败" OtherLangText="오행기진 다음층으로 전송할때 가방에서 【{0}】를 꺼낼때 실패했습니다." />
+  <Lang ChineseText="传送到五行奇阵下一层时，需要【{0}】" OtherLangText="오행기진 다음층으로 전송할때 【{0}】가 필요합니다." />
+  <Lang ChineseText="进入灵兽峰时，从包裹中扣除【{0}】失败" OtherLangText="영수봉에 진입할때 가방에서 【{0}】를 꺼낼때 실패했습니다." />
+  <Lang ChineseText="进入灵兽峰需要【{0}】" OtherLangText="영수봉에 진입할때 【{0}】가 필요합니다." />
+  <Lang ChineseText="重新刷怪物时，从包裹中扣除【{0}】失败" OtherLangText="몬스터 다시 갱신할때 가방에서 【{0}】를 꺼낼때 실패했습니다." />
+  <Lang ChineseText="重新刷怪物, 需要【{0}】" OtherLangText="몬스터 다시갱 신할때 【{0}】가 필요합니다." />
+  <Lang ChineseText="怪物死亡后，才需要刷新怪物" OtherLangText="몬스터가 죽은후 반드시 몬스터 갱신해야 합니다." />
+  <Lang ChineseText="地图的格子位置大于超过了地图的格子总数" OtherLangText="지도의 격자 크기가 지도격자의 총 수량을 초과했습니다." />
+  <Lang ChineseText="坐标超出地图大小: MapCode={0}, newX={1}, newY={2}, Width={3}, Height={4}" OtherLangText="좌표가 지도크기를 초과했습니다.: MapCode={0}, newX={1}, newY={2}, Width={3}, Height={4}" />
+  <Lang ChineseText="材料合成新物品" OtherLangText="재료로 새로운 상품을 합성" />
+  <Lang ChineseText="怪物复活, roleID={0}" OtherLangText="몬스터 부활, roleID={0}" />
+  <Lang ChineseText="九宫格: 发送新的怪物给客户端: {0}, {1}" OtherLangText="구궁격:새 몬스터를 클라이언트로 발송했습니다.: {0}, {1}" />
+  <Lang ChineseText="怪物减血, Injure={0}, Life={1}" OtherLangText="몬스터의 HP 감소, Injure={0}, Life={1}" />
+  <Lang ChineseText="怪物死亡, roleID={0}" OtherLangText="몬스터 사망, roleID={0}" />
+  <Lang ChineseText="怪物掉进了障碍中, roleID={0}, Map={1}, X={2}, Y={3}, ExtensionID={4}" OtherLangText="몬스터가 장애물속에 빠졌습니다. roleID={0}, Map={1}, X={2}, Y={3}, ExtensionID={4}" />
+  <Lang ChineseText="怪物平移到新的位置, roleID={0}, Map={1}, X={2}, Y={3}, 区域位置: ZoneX={4}, ZoneY={5}, ZoneRadius={6}, ExtensionID={7}" OtherLangText="몬스터가 새위치로 이동했습니다. roleID={0}, Map={1}, X={2}, Y={3}, 지역위치: ZoneX={4}, ZoneY={5}, ZoneRadius={6}, ExtensionID={7}" />
+  <Lang ChineseText="怪物加血, roleID={0}, Add={1}, Life={2}" OtherLangText="몬스터 HP추가, roleID={0}, Add={1}, Life={2}" />
+  <Lang ChineseText="怪物加魔, roleID={0}, Add={1}, Magic={2}" OtherLangText="몬스터 MP추가, roleID={0}, Add={1}, Magic={2}" />
+  <Lang ChineseText="AStar怪物寻路失败, ExtenstionID={0}, Start=({1},{2}), End=({3},{4}), fixedObstruction=({5},{6})" OtherLangText="AStar몬스터 길찾기 실패, ExtenstionID={0}, Start=({1},{2}), End=({3},{4}), fixedObstruction=({5},{6})" />
+  <Lang ChineseText="AStarMove, 开始打印寻路的节点" OtherLangText="AStarMove, 길찾기 절점을 프린터 시직." />
+  <Lang ChineseText="AStarMove, 寻路节点, X={0}, Y={1}" OtherLangText="AStarMove, 길찾기절점, X={0}, Y={1}" />
+  <Lang ChineseText="AStarMove, 寻路节点, pointAnimationUsingKeyFrames.Count={0}" OtherLangText="AStarMove, 길찾기절점, pointAnimationUsingKeyFrames.Count={0}" />
+  <Lang ChineseText="怪物移动: 故事板结束" OtherLangText="몬스터 이동: 이야기 종료됨" />
+  <Lang ChineseText="加载系统怪物配置文件:{0}, 失败。没有找到相关XML配置文件!" OtherLangText="로딩 시스템 몬스터 설정파일:{0}, 실패. 관련 XML설정파일을 찾을수 없습니다." />
+  <Lang ChineseText="加载指定怪物的衣服代号:{0}, 失败。没有找到相关XML配置文件!" OtherLangText="로딩 몬스터의 복장번호 지정:{0}, 실패.관련 XML설정파일을 찾을수 없습니다." />
+  <Lang ChineseText="怪物部署的时，怪物的数据配置错误，生命值不能小于等于0: MonsterID={0}, MonsterName={1}" OtherLangText="몬스터가 부속할때 몬스터의 데이터 설정이 오류가 발생했습니다. 생명치가 0보다 작거나 같으면 안됩니다.: MonsterID={0}, MonsterName={1}" />
+  <Lang ChineseText="怪物部署的范围错误，超出了地图的最大限制: MonsterID={0}, MonsterName={1}" OtherLangText="몬스터가 부속한 범위가 오류가 발생했습니다. 지도의 최대범위를 초과했습니다.: MonsterID={0}, MonsterName={1}" />
+  <Lang ChineseText="加载地图怪物配置文件:{0}, 失败。没有找到相关XML配置文件!" OtherLangText="지도 몬스터 설정파일 로딩:{0}, 실패. 관련 XML설정파일을 찾을수 없습니다." />
+  <Lang ChineseText="加载NPC出售列表时, 物品不存在，忽略。GoodsID={0}" OtherLangText="NPC판매 목록을 로딩할때 상품이 존재하지 않습니다.소홀히 하다.GoodsID={0}" />
+  <Lang ChineseText="解析弹窗配置表中的时间项失败, ID={0}" OtherLangText="팝업창 설정목록에서 시간항목 설명할때 오류가 발생했습니다. ID={0}" />
+  <Lang ChineseText="解析弹窗配置表中的时间项为数组时失败, ID={0}" OtherLangText="팝업창 설정목록에서 시간항목을 배열할때 실패했습니다. ID={0}" />
+  <Lang ChineseText="祝福丹" OtherLangText="축복단" />
+  <Lang ChineseText="获取任务道具" OtherLangText="임무 아이템 획득" />
+  <Lang ChineseText="包裹已满，请先清理出空格再接受任务物品" OtherLangText="가방에는 이미 공간이 없습니다. 우선먼저 빈 공간을 정리하고 상품을 받으세요." />
+  <Lang ChineseText="获取杀怪掉落道具" OtherLangText="몬스터 사냥에서 드랍된 아이템 획득" />
+  <Lang ChineseText="包裹已满，无法将【{0}】放入包裹, 请清理出包裹空格后再继续杀怪" OtherLangText="가방에 공간이 없습니다. 【{0}】을 가방에 넣을수 없습니다. 먼저 가방 공간을 정리하고 계속해서 몬스터 사냥을 하세요." />
+  <Lang ChineseText="获取杀怪道具" OtherLangText="몬스터 사냥에서 획득한 아이템" />
+  <Lang ChineseText="任务奖励" OtherLangText="임무보상" />
+  <Lang ChineseText="其他任务奖励" OtherLangText="기타 임무보상" />
+  <Lang ChineseText="角色获取灵力, roleID={0}({1}), LingLi={2}, newLingLi={3}" OtherLangText="캐릭터 영력획득, roleID={0}({1}), LingLi={2}, newLingLi={3}" />
+  <Lang ChineseText="技能消耗魔法, roleID={0}({1}), Sub={2}, Magic={3}, MagicCode={4}" OtherLangText="스킬은 마법을 소모합니다. roleID={0}({1}), Sub={2}, Magic={3}, MagicCode={4}" />
+  <Lang ChineseText="加载系统配置参数配置文件:{0}, 失败。没有找到相关XML配置文件!" OtherLangText="로딩 시스템 설정 피라미터값 설정파일 :{0}, 실패. 관련 XML설정파일을 찾을수 없습니다." />
+  <Lang ChineseText="解析XMLNode 中的属性值: {0}, 失败, XML节点路径: {1}" OtherLangText="XMLNode 중 속성값을 해설할때 : {0}, 실패. XML절점경로: {1}" />
+  <Lang ChineseText="解析任务装备奖励时，物品不存在: GoodsID={0}" OtherLangText="임무장비보상 해석할때 상품이 존재하지 않았음: GoodsID={0}" />
+  <Lang ChineseText="解析任务装备奖励失败: TaskID={0}" OtherLangText="임무장비 보상 실패원인 해석: TaskID={0}" />
+  <Lang ChineseText="解析任务其他奖励失败: TaskID={0}" OtherLangText="임무 기타보상 실패원인 해석: TaskID={0}" />
+  <Lang ChineseText="挖宝获取道具" OtherLangText="보물찾기로 획득한 아이템." />
+  <Lang ChineseText="解析五行奇阵配置文件时，解析NPC列表或者地图列表失败, GlobalID={0}" OtherLangText="오행기진설정 파일을 해석할때 NPC목록 혹은 지도목록을 해석할때 실패햇습니다. GlobalID={0}" />
+  <Lang ChineseText="解析WuXingAwards.xml文件中的奖励项时失败, 物品配置项个数错误" OtherLangText="WuXingAwards.xml파일중 보상항목을 해석할때 실패했습니다.  상품설정항목 개수오류" />
+  <Lang ChineseText="解析WuXingAwards.xml配置项中的物品奖励失败, MapCode={0}" OtherLangText="WuXingAwards.xml설정항목중 상품보상 해석할때 실패했습니다. MapCode={0}" />
+  <Lang ChineseText="加载五行奇阵的最顶层奖励项失败!" OtherLangText="오행기진의 최고층 보상을 로딩할때 실패했습니다." />
+  <Lang ChineseText="包裹中空格不足，请清理出足够的空格后，再获取五行奇阵的奖励" OtherLangText="가방에 공간이 부족합니다.빈공간을 정리하고 오행기진 보상을 받으세요." />
+  <Lang ChineseText="五行奇阵奖励物品" OtherLangText="오행기진보상 상품" />
+  <Lang ChineseText="{0}, 与DBServer: {1}:{2}建立连接失败" OtherLangText="{0}, DBServer와 : {1}:{2}건립연결 실패했습니다" />
+  <Lang ChineseText="{0}, 与DBServer: {1}建立连接成功" OtherLangText="{0}, DBServer와 : {1}건립연결 성공했습니다." />
+  <Lang ChineseText="{0}, 与DBServer: {1}断开连接" OtherLangText="{0}, DBServer와 : {1} 연결을 중단했습니다." />
+  <Lang ChineseText="{0}, 向DBServer:{1}, 发送命令{2}, 数据 {3}" OtherLangText="{0}, DBServer를 향해서 :{1}, 명령발송{2}, 데이터 {3}" />
+  <Lang ChineseText="{0}, 与DBServer: {1}通讯失败, 获取数据包长度失败" OtherLangText="{0}, DBServer와 : {1}통신실패, 획득한 데이터길이가 너무길어서 실패했습니다." />
+  <Lang ChineseText="{0}, 与DBServer: {1}通讯失败, 返回的数据包数据长度:{2}和接收到的数据长度:{3}不匹配" OtherLangText="{0}, DBServer와: {1}통신실패, 반환한 데이터가 너무길어서 실패했습니다.:{2}가받은 데이터 길이가 :{3}과 맞지 않습니다." />
+  <Lang ChineseText="{0}, 与DBServer: {1}通讯失败" OtherLangText="{0}, DBServer와 : {1}통신실패" />
+  <Lang ChineseText="{0}, 准备连接到DBServer: {1}{2}" OtherLangText="{0}, DBServer에 연결하려고 준비하고 있습니다.: {1}{2}" />
+  <Lang ChineseText="指令处理时间, CMD={0}, Client={1}, Ticks={2}" OtherLangText="명령처리시간, CMD={0}, Client={1}, Ticks={2}" />
+  <Lang ChineseText="解析指令字符串错误, CMD={0}, Client={1}" OtherLangText="명령 문자열 해석 오류, CMD={0}, Client={1}" />
+  <Lang ChineseText="指令参数个数错误, CMD={0}, Client={1}, Recv={2}" OtherLangText="명령 피라미터값 개수 오류, CMD={0}, Client={1}, Recv={2}" />
+  <Lang ChineseText="用户登陆后, 判断已经达到线路最大人数限制, 返回失败, CMD={0}, Client={1}, UserID={2}" OtherLangText="사용자가 로그인후 이미 접속자 최대한도에 도달한것으로 판단되었습니다. 돌아가기 실해. CMD={0}, Client={1}, UserID={2}" />
+  <Lang ChineseText="登录时验证token错误, CMD={0}, Client={1}, VerifyResult={2}" OtherLangText="로그인 할때 인증token오류, CMD={0}, Client={1}, VerifyResult={2}" />
+  <Lang ChineseText="用户登陆时, 判断用户账号已经在线，强迫上次的登录断线..., Client={0}, UserName={1}" OtherLangText="사용자 로그인할때 사용자 계정이 이미 온라인 상태로 된것으로 판단되었습니다. 강제로 전의 로그인 상태를 중단했습니다..., Client={0}, UserName={1}" />
+  <Lang ChineseText="解析指令字符串错误, CMD={0}" OtherLangText="명령 문자열 해석 오류, CMD={0}" />
+  <Lang ChineseText="指令参数个数错误, CMD={0}, Recv={1}" OtherLangText="명령 피라미터값 개수 오류, CMD={0}, Recv={1}" />
+  <Lang ChineseText="根据RoleID定位GameClient对象已经存在, CMD={0}, Client={1}, RoleID={2}" OtherLangText="RoleID위치에 근거하여 GameClient 대상이 이미 존재합니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="数据库获取角色的数据失败: Cmd={0}, RoleID={1}, 关闭连接" OtherLangText="캐릭터의 데이터 획득 실패: Cmd={0}, RoleID={1}, 연결닫기" />
+  <Lang ChineseText="登陆时强制将不存在的地图编号转为缺省的登录地图: MapCode={0}" OtherLangText="로그인 할때 강제로 존재하지 않는 지도번호를 기본갑 로그인 지도로 전환했습니다.: MapCode={0}" />
+  <Lang ChineseText="登陆时强制将超时的普通副本转为常规地图: MapCode={0}" OtherLangText="로그인 할때 시간이 초과된 일반던전을 강제로 정상지도로 전환합니다.: MapCode={0}" />
+  <Lang ChineseText="登陆时强制将非常规地图转为常规地图: MapCode={0}" OtherLangText="로그인 할때 비 정상적인 지도를 강제로 정상지도로 전환합니다.: MapCode={0}" />
+  <Lang ChineseText="登陆时强制将皇城或者领地地图转为常规地图: MapCode={0}" OtherLangText="로그인 할때 황성 혹은 영지지도를 강제로 정상지도로 전환합니다.: MapCode={0}" />
+  <Lang ChineseText="根据RoleID定位GameClient对象失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="RoleID의 위치에 근거해서 GameClient대상 실패, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="根据Socket定位GameClient对象失败, CMD={0}, Client={1}" OtherLangText="Socket의 위치에 근거해서 GameClient대상 실패, CMD={0}, Client={1}" />
+  <Lang ChineseText="要求移动的角色不是宠物或者卫兵或者镖车，无法使用MOVE2指令, CMD={0}, Client={1}" OtherLangText="이동을 요구한 캐릭터는 애완동물 아니면 위병 혹은 운송차량 입니다. MOVE2명령을 사용할 수 없습니다. CMD={0}, Client={1}" />
+  <Lang ChineseText="外挂接受新任务, 任务不存在, CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" OtherLangText="오토가 수락한 새로운 임무. 임무가 존재하지 않습니다. CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" />
+  <Lang ChineseText="外挂接受新任务, 跑环任务超出次数限制, CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" OtherLangText="오토가 수락한 새로운 임무. 포환임무가 제한된 횟수를 초과했습니다. CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" />
+  <Lang ChineseText="外挂接受新任务, 任务不能再接, CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" OtherLangText="오토가 수락한 새로운 임무. 임무를 더이상 수락할 수 없습니다. CMD={0}, Client={1}, RoleID={2}, TaskID={3}, NPCID={4}" />
+  <Lang ChineseText="切换地图时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="지도교체 실패, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="NPC购买, 非法的外挂购买, 物品数量不能小于等于0或者大于10000, CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" OtherLangText="NPC구입. 비 합법적인 오토로 구입햇습니다.상품수량이 0보다 작거나 같아서는 안되며 혹은 10000보다 커서는 안됩니다. CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" />
+  <Lang ChineseText="NPC购买, 非法的外挂购买, 物品类型和配置表中的不符合, CMD={0}, Client={1}, RoleID={2}, SaleType={3}" OtherLangText="NPC구입. 비 합법적인 오토로 구입했습니다. 상품유형과 설정목록이 맞지않습니다. CMD={0}, Client={1}, RoleID={2}, SaleType={3}" />
+  <Lang ChineseText="非法的外挂购买, 购买类型错误, CMD={0}, Client={1}, RoleID={2}" OtherLangText="불법 오토로 구입. 구입유형 오류, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="NPC处购买物品" OtherLangText="NPC가 있는곳에서 상품구입" />
+  <Lang ChineseText="角色卖出物品获取金钱, roleID={0}({1}), Money={2}, newMoney={3}" OtherLangText="캐릭터가 상품을 판매하고 금전을 획득했습니다. roleID={0}({1}), Money={2}, newMoney={3}" />
+  <Lang ChineseText="定位物品对象失败, CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" OtherLangText="정위상품대상 실패, CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" />
+  <Lang ChineseText="监测到复制物品的操作立即断开, CMD={0}, Client={1}, RoleID={2}" OtherLangText="복제한 상품의 조작을 발견했습니다. 즉시 연결을 차단합니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="不能直接使用命令修改物品对象数量的大小, CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" OtherLangText="직접 상품대상 수량의 사이즈 수정명령을 직접 사용할 수 없습니다. CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" />
+  <Lang ChineseText="客户端修改" OtherLangText="클라이언트 수정" />
+  <Lang ChineseText="定位物品对象1失败, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" OtherLangText="정위상품 대상 1 실패, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" />
+  <Lang ChineseText="监测到复制物品的操作立即断开, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" OtherLangText="복제한 상품의 조작을 발견했습니다.즉시 연결을 차단합니다. CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" />
+  <Lang ChineseText="定位物品对象2失败, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" OtherLangText="정위상품대상 2 실패, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" />
+  <Lang ChineseText="合并减少" OtherLangText="합병감소" />
+  <Lang ChineseText="合并增加" OtherLangText="합병증가" />
+  <Lang ChineseText="包裹已满，请先清理出空格后再拆分" OtherLangText="가방이 찾습니다. 먼저 공간을 만들고 분리를 하세요." />
+  <Lang ChineseText="移动仓库已满，请先清理出空格后再拆分" OtherLangText="휴대창고가 찾습니다. 먼저 공간을 만들고 분리를 하세요." />
+  <Lang ChineseText="物品拆分" OtherLangText="상품분리" />
+  <Lang ChineseText="拆分物品时, 拆分生成新物品失败, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" OtherLangText="상품 분리할때 분리할때 생성한 새로운 상품이 실패했습니다. CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" />
+  <Lang ChineseText="聊天的类型索引超出了限制, CMD={0}, Client={1}, RoleID={2}, Index={3}" OtherLangText="챗팅유형 인덱스가 한도를 초과했습니다. CMD={0}, Client={1}, RoleID={2}, Index={3}" />
+  <Lang ChineseText="你已经被禁止了发言" OtherLangText="당신은 이미 발언금지 되었습니다." />
+  <Lang ChineseText="用户使用物品时，从物品配置表中查找物品ID失败, CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" OtherLangText="사용자가 상품을 사용할때 상품설정목록에서 상품ID찾기를 실패했습니다. CMD={0}, Client={1}, RoleID={2}, GoodsID={3}" />
+  <Lang ChineseText="【{0}】只能被{1}职业使用" OtherLangText="【{0}】오직 {1}직업만 사용할 수 있습니다." />
+  <Lang ChineseText="高于{0}级别才能使用{1}" OtherLangText="高于{0}레벨보다 높아야 {1}를 사용할 수 있습니다." />
+  <Lang ChineseText="包裹中没有空格来解开物品包" OtherLangText="가방에 공간이 없어 선물주머니를 열수 없습니다." />
+  <Lang ChineseText="【{0}】地图中，禁止使用【{1}】" OtherLangText="【{0}】지도중 {1}】사용이 금지되었습니다." />
+  <Lang ChineseText="锻造" OtherLangText="단조" />
+  <Lang ChineseText="提品" OtherLangText="제품" />
+  <Lang ChineseText="商城购买, 非法的外挂购买, 物品数量不能小于等于0或者大于10000, CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" OtherLangText="상점구입.비 합법적 오토구입.상품수량은 0보다 작거나 같으면 안되며 10000보다 크면 안됩니다., CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" />
+  <Lang ChineseText="商城购买" OtherLangText="상점구입" />
+  <Lang ChineseText="要求移动的角色不是宠物或者卫兵，无法使用MOVE2指令, CMD={0}, Client={1}" OtherLangText="이동을 요구한 캐릭터는 애완동물이거나 위병입니다. MOVE2 명령을 사용할 수 없습니다. CMD={0}, Client={1}" />
+  <Lang ChineseText="队伍1" OtherLangText="대오1" />
+  <Lang ChineseText="队伍2" OtherLangText="대오2" />
+  <Lang ChineseText="房间{0}中的{1}" OtherLangText="방{0}안의{1}" />
+  <Lang ChineseText="从闭关收益表定位收益数据时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="관문닫기 수익목록에서 수익목록 정위할때 실패 CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="角色的技能列表中无此技能, CMD={0}, Client={1}, RoleID={2}, SkillDbID={3}" OtherLangText="캐릭터의 기능목록중 이 기능은 없습니다. CMD={0}, Client={1}, RoleID={2}, SkillDbID={3}" />
+  <Lang ChineseText="从技能表定位技能数据时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="기능표 정위기능 데이터 실패, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="从交易市场定位物品对象失败, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" OtherLangText="거래시장 정위상품대상 실패, CMD={0}, Client={1}, RoleID={2}, GoodsDbID={3}" />
+  <Lang ChineseText="交易上架" OtherLangText="거래출시" />
+  <Lang ChineseText="交易下架" OtherLangText="거래종료" />
+  <Lang ChineseText="交易市场购买后批量添加" OtherLangText="거래시장구입후 대량으로 추가" />
+  <Lang ChineseText="转移物品时失败, 交易市场购买, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" OtherLangText="상품이동시 실패,거래시장 구입, FromRole={0}({1}), ToRole={2}({3}), GoodsDbID={4}, GoodsID={5}, GoodsNum={6}" />
+  <Lang ChineseText="接收到客户端心跳后，检测token无效, CMD={0}, Client={1}, RoleID={2}" OtherLangText="클라이언트에서 보낸 데이터를 수락한후 token검사 무효, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="【梦隋唐】游戏禁止使用加速软件，超过3次后将被永久封号!" OtherLangText="【몽수당】게임에서는 가속 프로그램을 사용금지 합니다. 3회 사용시에는 영구적으로 계정이 블럭됩니다." />
+  <Lang ChineseText="判断客户端启用了加速操作，强制断开客户端的连接, CMD={0}, Client={1}, RoleName={2}" OtherLangText="클라이언트에서 가속조작을 사용함을 판단함. 강제로 클라이언트 연결을 종료합니다. CMD={0}, Client={1}, RoleName={2}" />
+  <Lang ChineseText="结束押镖退还银票" OtherLangText="압표 지폐반환 종료" />
+  <Lang ChineseText="从DBServer查询帮会的管理成员时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="DBServer에서 방회의 관리회원 조회 실패, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="想要加入的『{0}』势力已经不存在!" OtherLangText="가입하려고한 『{0}』세력은 이미 존재하지 않습니다!" />
+  <Lang ChineseText="将角色添加为帮会的成员时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="캐릭터를 방회회원으로 추가실패, CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="要加入的『{0}』势力已经不存在" OtherLangText="가입하려고한 『{0}』세력이 이미 존재하지 않습니다." />
+  <Lang ChineseText="要加入的『{0}』势力的人数已经达到了上限" OtherLangText="가입하려고한 『{0}』세력의 회원수가 제한된 회원수에 도달했습니다." />
+  <Lang ChineseText="将『{0}』加入『{1}』势力时发生错误: {2}" OtherLangText="『{0}』를 『{1}』세력에 가입할때 오류가 발생했습니다.: {2}" />
+  <Lang ChineseText="等待『{0}』通过加入『{1}』势力的邀请..." OtherLangText="『{0}』의 세력가입 요청 대기.『{1}』세력가입 요청이 통과되었습니다...." />
+  <Lang ChineseText="『{0}』加入『{1}』势力时发生错误: {2}" OtherLangText="『{0}』은『{1}』세력에 가입할때 오류가 발생했습니다.: {2}" />
+  <Lang ChineseText="将角色从帮会中删除时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="캐릭터를 방회에서 삭제할때 오류가 발생했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="将『{0}』开除出『{1}』势力时发生错误: {2}" OtherLangText="将『{0}』를 『{1}』세력에서 해고할때 오류가 발생했습니다.: {2}" />
+  <Lang ChineseText="『{0}』脱离『{1}』势力时发生错误: {2}" OtherLangText="『{0}』은 『{1}』세력을 이탈할때 오류가 발생했습니다.: {2}" />
+  <Lang ChineseText="『{0}』解散『{1}』势力时发生错误: {2}" OtherLangText="『{0}』은『{1}』세력을 해산할때 오류가 발생했습니다.: {2}" />
+  <Lang ChineseText="首领【{0}】解散了『{1}』势力" OtherLangText="수령【{0}】께서는 『{1}』세력을 해산했습니다." />
+  <Lang ChineseText="修改帮会成员的职务时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="방회회원의 직무를 수정할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="角色为帮会贡献铜钱时时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="캐릭터가 방회를 위해 동전을 공헌할때 실패했습니다.CMD={0}, Client={1}, RoleID={2}}" />
+  <Lang ChineseText="角色为帮会贡献道具时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="캐릭터가 방회를 위해 아이템을 공헌할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="修改帮旗名称时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="방회깃발명칭을 수정할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="升级帮旗等级时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="방회깃발 승급할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="设置领地税率时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="영지세급 설정할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="从领地税提取铜钱时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="영지세금에서 동전을 받을때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="包裹中没有找到【{0}】, 无法开启杨公宝库" OtherLangText="가방에서 【{0}】를 찾을수 없습니다. 양공보물창고를 열 수 없습니다." />
+  <Lang ChineseText="开启杨公宝库失败，宝库中的宝藏不存在" OtherLangText="양공보물창고 열기 실패. 보물창고안의 보물들이 존재하지 않습니다." />
+  <Lang ChineseText="杨公宝库还未开启，无法免费刷新宝藏" OtherLangText="양공보물창고 아직 열지못했습니다. 공짜로 보물창고를 새로고치기를 할 수 없습니다." />
+  <Lang ChineseText="每次打开杨公宝库后，最多免费刷【{0}】次" OtherLangText="매번 양공보물창고를 연후 최대 【{0}】회까지 공짜로 새로고치기를 할 수 있습니다." />
+  <Lang ChineseText="杨公宝库选宝后，就无法再刷新" OtherLangText="양공보물창고를 선택한 후 새로고치기를 할 수 없습니다." />
+  <Lang ChineseText="免费刷新杨公宝库失败，宝库中的宝藏不存在" OtherLangText="공짜로 양공보물창고 새로고치시 실패. 창고에는 보물들이 존재하지 않습니다." />
+  <Lang ChineseText="杨公宝库挖宝" OtherLangText="양공보물창고 보물찾기" />
+  <Lang ChineseText="元宝余额不足，无法刷新奇珍阁" OtherLangText="원보 잔여가 부족합니다. 기진각 새로고치기를 할수 없습니다." />
+  <Lang ChineseText="奇珍阁, 非法的外挂购买, 物品数量不能小于等于0或者大于10000, CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" OtherLangText="기진각. 비 합법적인 오토로 구입함.  상품의 수량이 0보다 작거나 같아서는 안되며 10000보다 크면 안됩니다. CMD={0}, Client={1}, RoleID={2}, GoodsNum={3}" />
+  <Lang ChineseText="奇珍阁购买" OtherLangText="기진각 구입" />
+  <Lang ChineseText="【{0}】已经打通，无法再次打通!" OtherLangText="【{0}】은 이미 관통했습니다. 중복할수 없습니다." />
+  <Lang ChineseText="快速打通经脉时，包裹中没有找到【{0}】" OtherLangText="경맥 신속 관통할때 가방에서 【{0}】를 찾을수 없었습니다." />
+  <Lang ChineseText="快速打通经脉时，扣除【{0}】失败" OtherLangText="경맥 신속 관통할때 【{0}】를 감소 실패" />
+  <Lang ChineseText="快速提品" OtherLangText="신속제품" />
+  <Lang ChineseText="快速锻造" OtherLangText="신속단조" />
+  <Lang ChineseText="【{0}】拒绝成为您的新皇妃" OtherLangText="【{0}】은 당신의 새 왕비가 되는것을 거절했습니다." />
+  <Lang ChineseText="向DBServer请求添加皇妃操作时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="DBServer을 향해 요청한 왕비추가 조작이 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="【{0}】已经同意成为您的新皇妃" OtherLangText="【{0}】이미 당신의 새 왕비가 되는것을 동의했습니다." />
+  <Lang ChineseText="向DBServer请求释放玩家出牢房时失败, CMD={0}, Client={1}, RoleID={2}" OtherLangText="DBServer을 향해 요청한 유저를 감옥에서 석방할때 실패했습니다. CMD={0}, Client={1}, RoleID={2}" />
+  <Lang ChineseText="包裹中没有传送【{0}】，无法执行任务传送" OtherLangText="가방에는 전송【{0}】이 없습니다. 임무전송을 집행할 수 없습니다." />
+  <Lang ChineseText="解析并执行命令失败: {0},{1}, 关闭连接" OtherLangText="해석 및 집행명령 실패했습니다.: {0},{1}, 연결닫기" />
+  <Lang ChineseText="接收到非法数据长度的tcp命令, 需要立即断开!" OtherLangText="비 합법적인 데이터 길이 tcp명령을 수락했습니다. 즉시 연결을 차단하세요!" />
+</Languages>
